@@ -1,0 +1,181 @@
+
+<div class="bg-gray">
+    <div class="wrap">
+<? include "sub_user/user_mypage_menu.page" ?>
+        <div class="columns">
+            <div class="column">
+                <div class="cardb">
+                    <header class="cardb-header">
+                        <p class="cardb-header-title">
+                            보유 포인트
+                        </p>
+                    </header>
+                    <div class="cardb-content">
+                        <div class="content has-text-centered">
+                            <div class="columns">
+                                <div class="column" style="margin: auto;">
+                                    <span id="MyPoint" class="title is-5 has-text-link-dark2"></span>
+                                    <span class="title is-5">
+                                        <i aria-hidden="true" class="fab fa-product-hunt"></i>
+                                    </span>
+                                </div>
+                                <div class="column">
+                                    <div class="text-center">
+                                        <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pointIn">
+                                            포인트 충전
+                                        </button> -->
+                                        <button id="BTN_Recharge_Open" data-bs-toggle="modal" data-bs-target="#pointIn" class="button is-info">포인트 충전</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="cardb">
+                    <header class="cardb-header">
+                        <p class="cardb-header-title">
+                            포인트 출금
+                        </p>
+                    </header>
+                    <div class="cardb-content">
+                        <div class="content has-text-centered">
+                            <div class="columns">
+                                <div class="column" style="margin: auto;">
+                                    <span id="Dis_OutPoint" class="title is-5 has-text-link-dark2">0</span>
+                                    <span class="title is-5">
+                                        <i aria-hidden="true" class="fab fa-product-hunt"></i>
+                                    </span>
+                                </div>
+                                <div id="Dis_OutPoint_Msg" class="column" style="display:none !important">
+                                    <span>출금 신청중...</span>
+                                    <button id="BTN_PointOut_Cancel" type="button" class="btn btn-sm btn-warning">출금 취소</button>
+                                </div>
+                                <div class="column">
+                                    <div class="text-center">
+                                        <button id="BTN_PointOut_Open" data-bs-toggle="modal" data-bs-target="#pointOut" class="button is-danger">출금 신청</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content pb-5 pt-3">
+            <div class="title is-5 pl-3">거래내역</div>
+            <hr>
+            <ul>
+                <li>거래내역은 삭제가 불가능하며 기간을 설정하여 조회할 수 있습니다.</li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="columns">
+            <div class="column">
+                <div id="PointQMenu" class="tabs is-toggle">
+                    <ul>
+                        <li class="is-active"><a><span>전체</span></a></li>
+                        <li class=""><a><span>포인트 충전</span></a></li>
+                        <li class=""><a><span>포인트 사용</span></a></li>
+                        <li class=""><a><span>출금 내역</span></a></li>
+                        <li class=""><a><span>결제 내역</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column"></div>
+            <div class="column">
+                <div class="field has-addons">
+                    <p class="control"><input id="StartDate" type="date" placeholder="날짜" class="input"></p>
+                    <p class="control"><input id="EndDate" type="date" placeholder="날짜" class="input"></p>
+                    <div class="control ">
+                        <a id="PointSearch" class="button is-info ">검색</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="DIV_MyPointList" style="width:100%;display:none">
+            <table id="MyPointList" class="table stripe hover row-border order-column" style="width:100%;">
+                <thead>
+                    <tr class="text-center">
+                        <th>Seq</th>
+                        <th>일자</th>
+                        <th>구분</th>
+                        <th>사용/충전 금액</th>
+                        <th>포인트 잔액</th>
+                        <th>비고</th>
+                    </tr>
+                </thead>
+                <!-- <tbody>
+                    <tr class="text-center va-middle">
+                        <td>27</td>
+                        <td>출금신청</td>
+                        <td>
+                            <span class="has-text-danger">1,000 
+                                <i aria-hidden="true" class="fab fa-product-hunt"></i>
+                            </span>
+                        </td>
+                        <td>2021-04-07 01:54:00</td>
+                        <td>출금신청</td>
+                    </tr>
+                </tbody> -->
+            </table>
+        </div>
+        <div id="DIV_MyWithdrawalList" style="width:100%;display:none">
+            <table id="MyWithdrawalList" class="table stripe hover row-border order-column" style="width:100%;">
+                <thead>
+                    <tr class="text-center">
+                        <th>Seq</th>
+                        <th>일자</th>
+                        <th>출금 금액</th>
+                        <th>상태</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <div id="DIV_MyPurchaseList" style="width:100%;display:none">
+            <table id="MyPurchaseList" class="table stripe hover row-border order-column" style="width:100%;">
+                <thead>
+                    <tr class="text-center">
+                        <th>Seq</th>
+                        <th>type</th>
+                        <th>일자</th>
+                        <th>서비스유형</th>
+                        <th>선택사항</th>
+                        <th>선택사항1</th>
+                        <th>선택사항2</th>
+                        <th>선택사항3</th>
+                        <th>금액</th>
+                        <th>결제유형</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <!-- 모달 -->
+<? include "sub_cost_inc/purchase_point.page" ?>
+        <!-- 모달 끝 -->
+        <!--------------------------------------------------------->
+        <div id="pointOut" tabindex="-1" aria-labelledby="pointOutLabel" aria-hidden="true" class="modal fade">
+            <div class="modal-dialog ">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 id="pointOutLabel" class="modal-title">전환 출금 요청 포인트</h5>
+                        <button id="BTN_PointOut_Close" type="button" data-bs-dismiss="modal" aria-label="Close" class="close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6"><input id="PointOut" type="number" min="0" placeholder="출금신청금액" class="input"></div>
+                            <div class="col-md-6"><button id="BTN_PointOut_GO" type="button" class="btn btn-primary btn-block">전환 출금 신청</button></div>
+                            <div class="col-md-12">은행 이체 전에 포인트가 즉시 차감되며, 내역 조회에서 은행 이체가 완료되었는지 확인 가능합니다.</div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" data-bs-dismiss="modal" aria-label="Close" class="btn btn-outline-primary">취소</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

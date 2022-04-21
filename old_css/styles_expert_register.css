@@ -1,0 +1,338 @@
+section {
+    padding: 2rem 0 !important;
+}
+
+.mb30{
+    margin-bottom:30px;
+}
+.mt30{
+    margin-top: 60px;
+}
+.w100{
+    width: 100% !important;
+}
+.w33{
+    width: 33.3% !important;
+}
+.w30{
+    width: 30% !important;
+}
+
+.container.mb25{
+    margin-bottom: 25px;
+}
+.expertRegister_template .listBox{
+
+}
+
+.expertRegister_template .listBox .list{
+    padding: 10px 21px;
+    border: 1px solid #999999;
+    color: black;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.expertRegister_template .listBox .list.select{
+    padding:15px 30px;
+    border:1px solid #999999;
+    background: #999999;
+    color:white;
+}
+
+.expertRegister_template .formBox{
+    border: 2px solid #cccccc;
+    padding: 20px 40px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+
+
+.expertRegister_template .mini_listBox{
+    margin-top:-30px;
+    background: #f9fafc;
+    padding:20px;
+}
+.expertRegister_template .mini_listBox .mini_list{
+    clear: both;
+    padding: 1px 0px;
+    margin-bottom: 30px;
+    font-size: 0.9rem;
+}
+.expertRegister_template .mini_listBox .mini_list div{
+    float:left;
+}
+
+.expertRegister_template .mini_listBox .mini_list .title{
+    padding-right:10px;
+}
+
+.expertRegister_template .mini_listBox .mini_list .button{
+    float: right;
+    background: white;
+    border: 1px solid #b3b4b6;
+    border-radius: 11px;
+    padding: 1px 8px;
+    font-size: 0.7rem;
+}
+
+.expertRegister_template .mini_listBox .mini_list .text{
+    color:#919294;
+    font-size: 0.7rem;
+}
+
+.formTable{
+    width: 100%;
+}
+
+.formTable tr td{
+    padding:10px 5px;
+    height: 40px;
+}
+
+.formTable tr td .ministar{
+    padding:10px 5px;
+    color:#fe3c54;
+}
+
+.formTable tr td .ministar, h5 .ministar{
+    padding:10px 5px;
+    color:#fe3c54;
+}
+
+
+
+.grayInput{
+    border:1px solid #b3b3b3;
+    padding:7px 10px;
+    width: 100%;
+}
+
+.grayInput.left{
+    float:left;
+    margin-right:10px;
+}
+
+.grayInput.mt10{
+    margin-top:10px;
+}
+.leftGrayInput{
+    float:left;
+    width: 48%;
+    margin-left: 2%;
+}
+
+.leftGrayInput .subText{
+    font-size:0.7rem;
+    color:#b3b3b3;
+    margin-top:5px;
+    clear: both;
+}
+
+.grayInput::placeholder{
+    color:#b3b3b3;
+}
+
+.photoBox{
+    border: 1px solid #b3b3b3;
+    text-align: center;
+    width: 3cm;
+    height: 4cm;
+    position:absolute;
+    top:0%;
+    right: 0%;
+}
+
+
+.input-label {
+    width: 100%;
+    height: 100%;
+    
+    cursor: pointer;
+}
+.input-label p{
+    padding-top: 44px;
+}
+.photoBox input {
+    display: none;
+}
+
+.tabBox div{
+    float: left;
+    width: 50%;
+    text-align: center;
+    border: 1px solid #b3b3b3;
+    color: #b3b3b3;
+    padding: 10px 5px;
+    height: 35px;
+    line-height: 16px;
+    cursor: pointer;
+}
+.tabBox.w50 div{
+    width: 24%;
+}
+
+
+.tabBox div.select{
+    color: white;
+    background:#b3b3b3;
+}
+
+.sGrayButton{
+    position: absolute;
+    right: 14px;
+    top: 16px;
+    border: 1px solid #b3b3b3;
+    color: #b3b3b3;
+    font-size: 0.7rem;
+    border-radius: 15px;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.relativeBox{
+    position: relative;
+}
+
+.auth_line{
+    text-decoration: underline;
+    font-size: 0.7rem;
+    color:#a9c5c9;
+}
+
+.chkBox{
+    color:#a9c5c9;
+    font-size: 0.7rem;
+}
+.chkText{
+    margin-top:10px;
+    margin-right:10px;
+}
+
+.bankTable{
+    margin-top:50px;
+    width: 100%;
+}
+
+.bankTable tr:nth-child(1) td{
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+}
+.bankTable tr td:nth-child(2){
+    padding-left:20px;
+}
+.bankTable .miniText{
+    font-size:0.9rem;
+}
+
+.bankTable .pLong{
+    padding: 140px 30px 1px;
+    text-align: center;
+}
+
+
+#bankSelect,select{
+    border: 1px solid #b3b3b3;
+    padding: 5px 10px;
+    width: 100%;
+    height: 40px;
+}
+
+.grayRoundButton{
+    border: 1px solid #a9c5c9;
+    color: black;
+    border-radius: 8px;
+    padding: 5px 40px;
+    float:left;
+    background:#999999;
+}
+
+.grayRoundButton1{
+    border: 1px solid #a9c5c9;
+    color: black;
+    border-radius: 8px;
+    padding: 5px 40px;
+    background:#999999;
+    width: 49%;
+    display: inline-block;
+    float:left;
+}
+
+.grayRoundButton1.first{
+    margin-right: 1%;
+}
+
+.grayRoundButton.absolute{
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.buttonBox.absolute{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.grayButton{
+    width: 100%;
+    padding:10px;
+    text-align: center;
+    border:1px solid #b3b3b3;
+}
+
+.buttonBox{
+    text-align: center;
+    margin-top:100px;
+}
+
+.agreement{
+    border:1px solid #b3b3b3;
+    width: 100%;
+    height:300px;
+    overflow-y: scroll;
+}
+
+.checkButton{
+    margin-top:10px;
+}
+
+.checkButton input{
+    margin-right:5px;
+}
+
+.grayInput.block{
+    display: inline-block;
+    width: 44%;
+  }
+  .w50{
+      width: 50%;
+      display: inline-block;
+      float: left;
+  }
+
+  .grayInput.h100{
+      height: 100px;
+  }
+
+  .grayInput.bCenter{
+      text-align: center;
+      padding:7px 0px;
+  }
+
+
+.grayInput.left{
+    width: 70% !important;
+    display: inline-block;
+}
+.grayRoundButton{
+    display: inline-block;
+}

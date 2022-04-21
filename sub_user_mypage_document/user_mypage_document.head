@@ -1,0 +1,24 @@
+    <link rel="stylesheet" href="/common/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/common/css/jquery.dataTables.min.css">
+
+    <script type="text/javascript" src="/common/js/bootstrap.bundle.min.js"></script>  
+    <script type="text/javascript" src="/common/js/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="/common/js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="/common/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="/inc/inc_js.js?v=<?echo time()?>"></script>
+
+    <link rel="icon" type="image/x-icon" href="/old_img/mini_logo.png">
+    <link rel="stylesheet" href="/old_css/styles_career_admin.css?v=<?echo time()?>">
+
+    <link rel="stylesheet" href="/old_css/styles.css?v=<?echo time()?>">
+
+    <link rel="stylesheet" href="/css/translate.css?v=<?echo time()?>">
+
+   <style>
+        html, body{
+            font-family: "Nanum Gothic" !important;
+        }
+        table {
+            font-size: 0.8rem !important;
+        }
+    </style>

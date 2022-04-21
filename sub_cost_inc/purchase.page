@@ -1,0 +1,124 @@
+<div class="wrap" id="PurchaseSection" style="display:none;"><!-- block -->
+    <div class="trans-btn" style="display:flex">
+        <h6 style="width: 210px;">결제 유형 선택</h6>
+        <div class="hr"></div>
+    </div>
+    <div id="isPayDocArea" class="cardb mb-3">
+        <div class="cardb-content">
+            <div class="title is-6 pl-3">
+                <i aria-hidden="true" class="fas fa-angle-right"></i>결제 방식
+            </div>
+            <div class="columns control pl-3 is-multiline is-mobile">
+                <div class="column is-half-mobile">
+                    <label class="radio">
+                        <input type="radio" name="PG_MID" value="point">포인트 결제
+                    </label>
+                </div>
+                <div class="column is-half-mobile">
+                    <label class="radio">
+                        <input type="radio" name="PG_MID" value="card">카드결제
+                    </label>
+                </div>
+                <div class="column is-half-mobile">
+                    <label class="radio">
+                        <input type="radio" name="PG_MID" value="bank">실시간 계좌이체
+                    </label>
+                </div>                
+                <div class="column is-half-mobile">
+                    <!--<label class="radio">
+                        <input type="radio" name="PG_MID" value="nxhp_pl_il">휴대폰결제
+                    </label>-->
+                </div>
+                <div class="column is-half-mobile">
+                    <!--<label class="radio">
+                        <input type="radio" name="PG_MID" value="bank">무통장 입금
+                    </label>-->
+                </div>
+            </div>
+            <div class="has-text-centered">   
+                <button class="btn-l btn-black" disabled>장바구니</button>
+                <button id="BTN_PayDoc" class="btn-l btn-red">바로결제</button>
+                <button id="BTN_Recharge_Open" data-bs-toggle="modal" data-bs-target="#pointIn" class="btn-l btn-green">포인트 충전</button>
+            </div>
+        </div>
+    </div>
+<? include "sub_cost_inc/purchase_point.page" ?>
+</div>
+
+<form id="STPG_payForm" name="STPG_payForm">
+<input type="hidden" name="BizType">
+<input type="hidden" name="PTypeVal">
+<input type="hidden" name="Trans_Type">
+<input type="hidden" name="AI_UType">
+<input type="hidden" name="Trans_Layout">
+<input type="hidden" name="Trans_QAPremium">
+<input type="hidden" name="Trans_Urgent">
+<input type="hidden" name="ExpertCategory">
+<input type="hidden" name="TotalCost">
+<input type="hidden" name="PredictionTime">
+
+<input type="hidden" name="member_id" value="<?=$_SESSION['userid']?>">
+<input type="hidden" name="order_price">
+<input type="hidden" name="mchtId">
+<input type="hidden" name="plainTrdAmt">
+
+<input type="hidden" name="method" value="" />	<!-- 결제수단 -->
+<input type="hidden" name="trdDt" value="" />	<!-- 요청일자(yyyyMMdd) -->
+<input type="hidden" name="trdTm" value="" />	<!-- 요청시간(HHmmss)-->
+<input type="hidden" name="mchtTrdNo" value="" />	<!-- 상점주문번호 -->
+<input type="hidden" name="mchtName" value="휴텍씨" />	<!-- 상점한글명 -->
+<input type="hidden" name="mchtEName" value="hutechc" />	<!-- 상점영문명 -->
+<input type="hidden" name="pmtPrdtNm" v-model="otitle"/>	<!-- 상품명 -->
+<input type="hidden" name="notiUrl" value="http://www.metatrans.ai/processing/pg/receiveNoti.php" />	<!-- 결과처리 URL -->
+<input type="hidden" name="nextUrl" value="http://www.metatrans.ai/processing/pg/pay_receiveResult.php" />	<!-- 결과화면 URL -->
+<input type="hidden" name="cancUrl" value="http://www.metatrans.ai/processing/pg/pay_receiveResult.php" />	<!-- 결제취소 URL -->
+<input type="hidden" name="plainMchtCustNm"  value="<?=$_SESSION['usernm']?>" />			 <!-- 고객명 -->
+<input type="hidden" name="custAcntSumry" value="휴텍씨" />			 <!-- 통장인자내용 : 계좌이체, 가상계좌 -->
+<input type="hidden" name="expireDt"/>			<!-- 입금만료일시(필수) : 가상계좌 -->
+<input type="hidden" name="mchtParam"/>			 <!-- 상점예약필드 -->
+<input type="hidden" name="plainCphoneNo" value="<?=$_SESSION['phone']?>"/>					<!-- 핸드폰번호 : 휴대폰결제 -->
+<input type="hidden" name="plainEmail" value="<?=$_SESSION['userid']?>"/>		<!-- 이메일주소 : 신용카드, 계좌이체, 가상계좌, 휴대폰결제, 클립포인트 -->
+<input type="hidden" name="telecomCd"/>						<!-- 통신사코드 : 휴대폰결제 -->
+<input type="hidden" name="prdtTerm"/>			<!-- 상품제공기간 : 신용카드, 클립포인트 -->
+<input type="hidden" name="plainMchtCustId" />	
+
+<!-- 응답 파라미터 -->
+<input type="hidden" name="respMchtId" />			<!-- 상점아이디 -->
+<input type="hidden" name="respOutStatCd" />	    <!-- 거래상태 -->
+<input type="hidden" name="respOutRsltCd" />		<!-- 거절코드 -->
+<input type="hidden" name="respOutRsltMsg" />		<!-- 결과메세지 -->
+<input type="hidden" name="respMethod" />			<!-- 결제수단 -->
+<input type="hidden" name="respMchtTrdNo" />		<!-- 상점주문번호 -->
+<input type="hidden" name="respMchtCustId" />		<!-- 상점고객아이디 -->
+<input type="hidden" name="respTrdNo" />			<!-- 세틀뱅크 거래번호 -->
+<input type="hidden" name="respTrdAmt" />			<!-- 거래금액 -->
+<input type="hidden" name="respMchtParam" />		<!-- 상점예약필드 -->
+<input type="hidden" name="respAuthDt" />			<!-- 승인일시 -->
+<input type="hidden" name="respAuthNo" />			<!-- 승인번호 -->	
+<input type="hidden" name="respIntMon" />			<!-- 할부개월수 -->
+<input type="hidden" name="respFnNm" />				<!-- 카드사명 -->
+<input type="hidden" name="respFnCd" />				<!-- 카드사코드 -->
+<input type="hidden" name="respPointTrdNo" />		<!-- 포인트거래번호 -->
+<input type="hidden" name="respPointTrdAmt" />		<!-- 포인트거래금액 -->
+<input type="hidden" name="respRtNowDiscountAmt" />	<!-- 즉시할인금액 -->
+<input type="hidden" name="respAlacDiscountAmt" />	<!-- 제휴할인금액 -->
+<input type="hidden" name="respCardTrdAmt" />		<!-- 신용카드결제금액 -->
+<input type="hidden" name="respVAcntNo" />			<!-- 가상계좌번호 -->
+<input type="hidden" name="respExpireDt" />			<!-- 입금기한 -->
+<input type="hidden" name="respCphoneNo" />			<!-- 휴대폰번호 -->
+<input type="hidden" name="respBillkey" />			<!-- 자동결제키 -->
+
+<!-- 암호화 처리 후 세팅될 파라미터-->
+<input type="hidden" name="trdAmt" />
+<input type="hidden" name="mchtCustNm" />
+<input type="hidden" name="cphoneNo" />
+<input type="hidden" name="email" />
+<input type="hidden" name="mchtCustId" />
+<input type="hidden" name="taxAmt" />
+<input type="hidden" name="vatAmt" />
+<input type="hidden" name="taxFreeAmt" />
+<input type="hidden" name="svcAmt" />
+<input type="hidden" name="clipCustNm" />
+<input type="hidden" name="clipCustCi" />
+<input type="hidden" name="clipCustPhoneNo" />
+</form>

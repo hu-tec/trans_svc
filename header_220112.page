@@ -1,0 +1,233 @@
+<div id="header">
+    <div class="part_01">
+    	<div class="inner">
+            <!-- 상단 우측 메뉴 -->
+            <ul class="JS_topMenu menuOver">
+                <!-- 로그인전 -->
+				<li id="LIPoint" class="point">Point -</li>
+				<li id="user_mypage_point" style="cursor:pointer">충전</li>
+				<li id="my_expert" style="display:none;cursor:pointer">전문가 전용</li>
+				<li id="my_manage" style="display:none;cursor:pointer">관리자 전용</li>
+            	<li><a href="/?svc=login" class="log">로그인</a></li>
+				<li id="LILogout" style="display:none"><a id="logout">로그아웃</a></li>
+            	<li>
+                    <a href="/?svc=join">회원가입</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="part_02">
+        <div class="p0201">
+            <div class="inner">
+                <div class="logo rOver upDown">
+                    <a href="/">
+
+                        <!-- PC 로고 -->
+                        <img src="/img/layout/main_logo_on.png" alt="MetaTrans" class="off -mov" />
+                        <img src="/img/layout/main_logo_off.png" alt="MetaTrans" class="on -mov" />
+
+                        <!-- Mobile 로고 -->
+                        <img src="/img/layout/Mmain_logo.png" alt="MetaTrans" class="mobile" />
+
+                    </a>
+                </div>
+
+                <div class="right_section">
+                    <div class="header_icon">
+                        <ul>
+                            <li class="cp792 btn">
+                                <a href="#none">
+                                	<i class="xi-bars"></i>
+                                    <div class="-caption"><p>전체메뉴</p></div>
+                                </a>
+                            </li>
+                        	<li class="ico_myshop">
+                                <a href="/myshop/index.html">
+                                    <i class="xi-user-o"></i>
+                                    <div class="-caption"><p>마이샵</p></div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+			</div>
+        </div>
+        <div class="p0202">
+            <div class="header_new_main" style="display:block;">
+                <div class="header_new cboth" id="menu_top">
+                    <div class="top_logo left_float">
+                        <div module="custom_moduleedit_1">
+                            <a href="/?svc=main&cty=0"><img src="/img/layout/main_logo_on.png"></a>
+                        </div>
+                    </div>
+
+                    <div class="topmenu_area">
+                        <ul class="nav categorySub m01 menuOver">
+                            <li>
+                                <a id="cpy_intro" href="?svc=cpy_intro&cty=0" class="cate">링크</a>회사소개
+                                <ul class="company_menu">
+                                    <li><a id="cpy_intro" href="/?svc=cpy_intro&cty=0">링크</a>회사소개</li>
+                                    <li><a id="cpy_metatrans_intro" href="/?svc=cpy_metatrans_intro&cty=0">링크</a>메타트랜스소개</li>
+                                    <li><a id="cpy_service_intro" href="/?svc=cpy_service_intro&cty=0">링크</a>서비스소개</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <div id="category-lnb" class="category" style="height:50px;">
+                            <ul class="d1-wrap d_ratio" data-maxheight="480" id="MainBtn">
+                                <!--★중분류 줄바꿈 최고높이-->
+                                <li class="d1 li"><button id="trans_doc">문서</button></li>
+                                <li class="d1 li"><button id="trans_stt">STT</button></li>
+                                <li class="d1 li"><button id="trans_tts">TTS</button></li>
+                                <li class="d1 li"><button id="trans_video">영상</button></li>
+                                <li class="d1 li"><button id="trans_youtube">유튜브</button></li>
+                                <li class="d1 li"><button id="trans_web" disabled>Web번역</button></li>
+                                <li class="d1 li"><button id="trans_s2s">동시통역</button></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="right_area_01 right_float">
+                        <ul>
+                            <li><a href="?svc=editor&cty=0"><img src="/img/layout/aiadit.png"></a></li>
+                            <li><a href="?svc=btob&cty=0"><img src="/img/layout/BTOB.png"></a></li>
+                            <li>
+								<!------------------ Header Begin ------------------------>
+								<div class="wrap">
+									<nav class="nav-bar">
+										<ul id="NavBtn">
+											<li id="LIPoint" class="point">Point -</li>
+											<li id="user_mypage_point" style="cursor:pointer">충전</li>
+											<li id="my_expert" style="display:none;cursor:pointer">전문가 전용</li>
+											<li id="my_manage" style="display:none;cursor:pointer">관리자 전용</li>
+											<li id="user_mypage_document" style="cursor:pointer">마이페이지</li>
+											<li id="LILogout" style="display:none"><button id="logout" class="btn btn-primary">로그아웃</button></li>
+											<li id="LILogin"><button id="login" class="btn btn-primary">로그인</button></li>
+											<li id="LIJoin"><button id="join" class="btn btn-primary">회원가입</button></li>
+										</ul>
+									</nav>
+								</div>
+								<!--a id="LIPoint" class="point">Point -</a>
+								<a id="user_mypage_point" style="cursor:pointer">충전</a>
+								<a id="my_expert" style="display:none;cursor:pointer">전문가 전용</a>
+								<a id="my_manage" style="display:none;cursor:pointer">관리자 전용</a>
+								<a id="login" href="/?svc=login&amp;cty=0">LOGIN</a>
+								<a id="LILogout" style="display:none"><span id="logout">LOGOUT</span></a>
+                                <a href="#none" class="mslash">&nbsp;/&nbsp;</a>
+                                <a href="/?svc=join&amp;cty=0">JOIN US</a-->
+                            </li>
+                            <!--li><a href="">MY PAGE</a></li-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 모바일 메뉴 -->
+<div class="b-modal"></div>
+<div class="d_panel left">
+
+    <style>
+        /* on/off처리를 위해서 */
+        .JS_multiBtn,
+        .categorySub.m02,
+        .categorySub.m04,
+        .categorySub.comm,
+        .categorySub.etc { width:100%; }
+    </style>
+
+    <div class="scroll_box">
+        <!-- 로그인 -->
+        <div class="member_adm">
+            <!-- 상단문구 -->
+            <ul class="xans-element- xans-layout xans-layout-statelogon intro ">
+                <p>WELCOME BACK</p>
+                다시 찾아주셔서 감사합니다.
+            </ul>
+            <!-- 버튼 -->
+            <ul class="xans-element- xans-layout xans-layout-statelogon member_btn ">
+                <a href="/exec/front/Member/logout/" class="-btn -lg -black">로그아웃</a>
+                <a href="/member/modify.html" class="-btn -lg -white">정보수정</a>
+            </ul>
+        </div><!-- //로그인 -->
+
+        <h2><i class="xi-ellipsis-v"></i>카테고리 전체보기</h2>
+        <aside id="aside" class="xans-element- xans-layout xans-layout-slidepackage ">
+            <div id="slideCateList">
+                <!-- 추가메뉴1.. -->
+                <ul class="categorySub m01">
+                    <li class="arrow" id="submenu_m">
+                        <a href="#none" class="cate_m" href="#none">회사소개</a>회사소개
+                        <ul class="company_menu_m">
+                            <li><a href="?svc=cpy_intro&cty=0">링크</a>회사소개</li>
+                            <li><a href="?svc=cpy_metatrans_intro&cty=0">링크</a>메타트랜스소개</li>
+                            <li><a href="?svc=cpy_service_intro&cty=0">링크</a>서비스소개</li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- 상품분류 -->
+                <ul class="xans-element- xans-layout xans-layout-category categoryList">
+                    <li id="cate43" class="noChild">
+                        <a href="?svc=trans_doc&cty=0" class="cate_m">문서</a>
+                        <a href="?svc=trans_doc&cty=0" class="view">바로가기</a>
+                    </li>
+                    <li id="cate45" class="noChild">
+                        <a href="?svc=trans_stt&cty=0" class="cate_m">STT</a>
+                        <a href="?svc=trans_stt&cty=0" class="view">바로가기</a>
+                    </li>
+                    <li id="cate50" class="noChild">
+                        <a href="?svc=trans_tts&cty=0" class="cate_m">TTS</a>
+                        <a href="?svc=trans_tts&cty=0" class="view">바로가기</a>
+                    </li>
+                    <li id="cate46" class="noChild">
+                        <a href="?svc=trans_video&cty=0" class="cate_m">영상</a>
+                        <a href="?svc=trans_video&cty=0" class="view">바로가기</a>
+                    </li>
+                    <li id="cate47" class="noChild">
+                        <a href="?svc=trans_youtube&cty=0" class="cate_m">유튜브</a>
+                        <a href="?svc=trans_youtube&cty=0" class="view">바로가기</a>
+                    </li>
+                    <li id="cate48" class="noChild">
+                        <a href="#none" class="cate_m">WEB번역</a>
+                        <a href="#none" class="view">바로가기</a>
+                    </li>
+                    <li id="cate51" class="noChild">
+                        <a href="?svc=trans_s2s&cty=0" class="cate_m">동시통역</a>
+                        <a href="?svc=trans_s2s&cty=0" class="view">바로가기</a>
+                    </li>
+                </ul>
+                <!-- 커뮤니티 -->
+                <ul class="categorySub comm">
+                    <li class="arrow">
+                        <a href="/board/index.html">링크</a>커뮤니티
+                        <ul class="xans-element- xans-layout xans-layout-boardinfo" style="display: none;">
+                            <li class="xans-record-"><a href="#none">링크</a>공지사항 </li>
+                            <li class="xans-record-"><a href="#none">링크</a>상품 사용후기 </li>
+                            <li class="xans-record-"><a href="#none">링크</a>상품 Q&amp;A </li>
+                            <li class="xans-record-"><a href="#none">링크</a>번역가 지원신청 </li>
+                            <li class="xans-record-"><a href="#none">링크</a>갤러리 </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+    <!-- 닫기버튼 -->
+    <div class="d_toggle p-close d_on"><i class="xi-close"></i></div>
+
+    <script type="text/javascript">
+    /* 모바일 메뉴 */
+    $(document).ready(function(){
+        $(".cp792.btn").click(function(){
+            $(".b-modal").toggleClass("on");
+            $(".d_panel").toggleClass("on");
+        });
+        $(".xi-close").click(function(){
+            $(".b-modal").removeClass("on");
+            $(".d_panel").removeClass("on");
+        });
+    });
+    </script>
+</div>

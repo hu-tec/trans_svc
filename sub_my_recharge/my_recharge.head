@@ -1,0 +1,22 @@
+    <link rel="stylesheet" href="/common/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/common/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="/css/translate.css?v=<?echo time()?>">
+
+    <script type="text/javascript" src="/common/js/bootstrap.bundle.min.js"></script>  
+    <script type="text/javascript" src="/common/js/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="/common/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="/inc/inc_js.js?v=<?echo time()?>"></script>
+
+    <link rel="stylesheet" href="/old_css/style2.css?v=<?echo time()?>">
+    <link rel="stylesheet" href="/old_css/custom.css?v=<?echo time()?>">
+    <link rel="stylesheet" href="/old_css/bulma.bootstrap.css?v=<?echo time()?>">
+
+    <style>
+        table.dataTable {
+            border-top: 1px solid #EAEDED !important;
+            border-bottom: 1px solid #EAEDED !important;
+        }
+        .container {
+            max-width: 1120px;
+        }
+    </style>

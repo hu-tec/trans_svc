@@ -1,0 +1,22 @@
+    <link rel="stylesheet" href="/common/css/bootstrap.min.css">
+
+    <script type="text/javascript" src="/common/js/bootstrap.bundle.min.js"></script>  
+    <script type="text/javascript" src="/common/js/jquery-3.5.1.js"></script>
+
+    <link rel="stylesheet" href="/old_css/styles.css?v=<?echo time()?>">
+    <style>
+        .btn-outline-primary {
+            color: #464235;
+            border-color: #E8DAEF;
+        }
+        .btn-outline-primary:hover {
+            color: #fff;
+            background-color: #464235;
+            border-color: #ffffff;
+        }
+        .btn-outline-primary:disabled {
+            color: #3680fe;
+            background-color: #dc3545;
+        }
+    </style>
+    

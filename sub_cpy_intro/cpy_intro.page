@@ -1,0 +1,265 @@
+<div id="titleArea">
+    <h2>회사소개</h2>
+    <span><a href="#none" onclick="history.go(-1);return false;">뒤로가기</a></span>
+</div>
+
+<div class="page-wraper">
+    <div class="page-wrap">
+        <div class="intro">
+            <div id="slogan">
+                <h2>WE'RE <span>METATRANS</span></h2>
+            </div>
+            <div id="greeting" class="animated fadeInDown row">
+                <div class="ceo col-md-4">
+                    <img src="/intro_img/profile_1.png">
+                    <div class="detail_txt_img">
+                        <h5 class="text-dark">Park Mi-Jin</h5>
+                        <p class="" style="font-size:13px;line-height:18px">
+                            (現) (주)휴택씨 - 메타 트랜스 대표이사<br>
+                            (現) ICS 국제학교 이사장<br>
+                            (現) (주)타임즈 미디어 대표이사<br>
+                            (現) (사)국제통번역사절단 협회 사무총장<br>
+                            (現) (사)한국 번역 학회 사외이사 <br>
+                            (現) 한국 번역 연구원 사무총장<br>
+                            (前) UN 산하 UN IAEWP 교육위원
+                        </p>
+                    </div>
+                </div>
+                <div class="introduce_txt text-left col-md-8 text-dark">
+                    <p>
+                        <span><strong>메타 트랜스는</strong> 인공지능 기반의 AI 번역 서비스와<br />
+                        휴먼 감수 서비스를 제공하는 IT 기업입니다. </span><br>
+                        1997년부터 시작해온 언어 사업의 경험을 바탕으로 AI 번역 비서를 통해 24시간 어디서든 활용이 가능한 시스템을 도입하였습니다.<br><br>
+
+                        2017년 전 세계 최초 인공지능 VS 인간 번역 대결을 통해 미래 통역과 번역 시장의 방향성을 제시하였습니다. 또한 기존 통역. 번역, 시스템에 인공지능의 결합을 통해 AI 인공 번역 시스템과 전문 번역 에디터들의 결합을 통해 완성된 미래형 일자리 창출에 앞장서고 있습니다.<br><br>
+
+                        2018년부터 인공지능 번역 시스템과 전문 번역사의 결합이 가능한 번역 시스템을 개발하며 미래형 일자리, 미래 교육, 미래 인재 양성을 위해 앞장서고 있습니다.<br><br />
+
+                        2021년부터 과학기술정보 통신부 인정 AI 번역 에디터와 기술자 자격증을 승인받아 앞으로의 인공지능 번역사를 통해 한층 업그레이드 된 글로벌 비즈니스 파트너가 되도록 하겠습니다.<br><br>
+
+                        25년 경험을 통해 메타 트랜스 인공지능 언어 비서 서비스를 통해 글로벌 기업으로 발돋움하고자 하는 업체들을 지원하며 국내 관공서는 물론 미국, 캐나다, 유럽까지 진출하여 글로벌 회사로 발돋음할 것입니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="intro_diagram">
+            <ul>
+                <li>
+                    <div class="diagram_wrap">
+                        <h3>메타버스<br /> AI 번역 시스템 </h3>
+                        <p>메타버스 AI번역 시스템 제공을 통한 글로벌화 지원<br /><br />
+                            메타버스 AI 번역 API 제공
+                            <ul>
+                                <li>- 통역 번역의 지적 재산권 보호</li>
+                                <li>- STT, ITT 통한 메타버스 업무 지원
+                                </li>
+                                <li>- 인공 지능 동시 통역 번역 서비스
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="diagram_wrap">
+                        <h3>인공 지능 번역 <br />지원 시스템</h3>
+                        <p>
+                            과학기술정보통신부<br />
+                            AI 언어 자격증 승인
+                            <ul>
+                                <li>-STT, TTS 시스템에<br />
+                                    인공지능 번역 시스템 제공
+                                </li>
+                                <li>-유튜브,영상 시스템에<br />
+                                    인공지능 번역 시스템 제공
+                                </li>
+                                <li>-통역 번역의 지적 재산권 보호</li>
+                            </ul>
+                        </p>
+                    </div>
+                <li>
+                    <div class="diagram_wrap">
+                        <h3>인공 지능<br /> 통역,번역 솔루션</h3>
+                        <p> 인공지능 통역 번역 <br />   솔루션 제공 및 업무 지원
+                            <ul>
+                                <li>- 국가 공인 법무부 <br /> 통역 번역 시험 대행</li>
+                                <li>- 30,000여명의 통역 번역<br /> 언어전문가 보유</li>
+                                <li>- 통역 번역 에디터 교육 서비스</li>
+                                <li>- 25년 국제통역번역 협회 운영</li>
+                            </ul>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div id="feature">
+    <div class="feature_wrap">
+        <h3>METATRANS 특징</h3>
+        <ul>
+            <li>
+                <h4>글로벌 플랫폼</h4>
+                <p>
+                    글로벌 인프라 구축
+                </p>
+            </li>
+            <li>
+                <h4>집단지성</h4>
+                <p>
+                    고부가가치 사업
+                </p>
+            </li>
+            <li>
+                <h4>블록체인</h4>
+                <p>
+                    지적재산권 보장
+                </p>
+            </li>
+            <li>
+                <h4>인력 양성</h4>
+                <p>
+                    4차 산업 준비
+                </p>
+            </li>
+            <li>
+                <h4>신규 일자리</h4>
+                <p>
+                    AI 미래형 일자리 창출
+                </p>
+            </li>
+            <li>
+                <h4>AI 기술 접목</h4>
+                <p>
+                    챗봇과<br /> 음성 인식 기술 접목
+                </p>
+            </li>
+            <li>
+                <h4>메타버스 사업화 </h4>
+                <p>
+                    메타버스<br> 번역 시스템
+                </p>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div id="executive">
+    <h2>Executive team</h2>
+    <div class="h_txt">
+        <ul>
+            <li>
+                <div><img src="/img/01_company/et_01.jpg" alt=""></div>
+                <div class="detail_txt_img">
+                    <h3>Lee Jeong-Woo</h3>
+                    <ul>
+                        <li><span>(現)</span> KNN방송 감사</li>
+                        <li><span>(現)</span> 하나금융그룹 고문</li>
+                        <li><span>(前)</span> 코리아헤럴드 대표이사 발행인</li>
+                        <li><span>(前)</span> 내외경제신문 대표이사 발행인</li>
+                        <li><span>(前)</span> 키즈헤럴드넷 발행인 회장</li>
+                        <li><span>(前)</span> 현대투자신탁 대표이사</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div><img src="/img/01_company/et_02.jpg" alt=""></div>
+                <div class="detail_txt_img">
+                    <h3>Yoon Tae-Hee</h3>
+                    <ul>
+                        <li><span>(現)</span> Korea Economic Intelligence New York Wall St,회장</li>
+                        <li><span>(現)</span> (세계은행)국제 금융공사 수석고문</li>
+                        <li><span>(前)</span> 국제방송교류재단 이사장</li>
+                        <li><span>(前)</span> 서울외국어대학원대학교 총장</li>
+                        <li><span>(前)</span> 국제영어박람회 회장</li>
+                        <li><span>(前)</span> 주미 한국정부 장학생 선발위원장</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div><img src="/img/01_company/et_03.jpg" alt=""></div>
+                <div class="detail_txt_img">
+                    <h3>Kim Dong-Ik</h3>
+                    <ul>
+                        <li><span>(現)</span> ICS 이사장</li>
+                        <li><span>(現)</span> 성균관대학교 언론정보대학원 겸임교수</li>
+                        <li><span>(前)</span> 정무부 장관</li>
+                        <li><span>(前)</span> 중앙일보 사장</li>
+                        <li><span>(前)</span> 조선일보 편집국장</li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div><img src="/img/01_company/et_04.jpg" alt=""></div>
+                <div class="detail_txt_img">
+                    <h3>Kim Dong-Ik</h3>
+                    <ul>
+                        <li><span>(現)</span> ㈜ 휴텍씨 CTO</li>
+                        <li><span>(現)</span> 한국번역학회 산학협력위원</li>
+                        <li><span>(前)</span> ㈜시스트란 대표이사</li>
+                        <li><span>(前)</span> ㈜시스트란 인터내셔널 부사장</li>
+                        <li><span>(前)</span> ㈜사람과솔루션 연구소장</li>
+                        <li><span>(前)</span> ㈜위앤아이티 연구소장</li>
+                        <li><span>(前)</span> ㈜유니소프트 개발부 부장</li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="history">
+    <h2>회사 및 행사 연혁</h2>
+    <div class="copHis">
+        <div>
+            <ul>
+                <li><span>1997</span>통역 번역 교육기업 설립</li>
+                <li><span>1999</span>국제 통역 번역 사절단 설립</li>
+                <li><span>2005</span>통역 번역 인재 양성 교육</li>
+                <li><span>2009</span>중앙 통역 번역 센터 업무 진행</li>
+                <li><span>2009</span>사단 법인 국제 통역 번역 협회 설립</li>
+                <li><span>2013</span>법무부 공인 통역 번역 자격증 승인</li>
+                <li><span>2014</span>국제학교설립</li>
+                <li><span>2019</span>AI 통역 번역 서비스 플랫폼 개발</li>
+                <li><span>2020</span>AI 인공지능 통역 번역 서비스 개발</li>
+                <li><span>2021</span>과학기술정보 통신부 “인공 지능 언어 전문가” 자격증 승인</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <span>2002</span>모바일, UBT를 통한 통역 번역 시험 실시
+                    <p>
+                        <img src="/img/01_company/history_01.jpg" alt="" />
+                    </p>
+                </li>
+                <li><span>2004</span>인재 양성 교육센터20,000 여 명의 교육<br>
+                    전국 10여 개 교육 센터 운영</li>
+                <li>
+                    <span>2017</span>인간 vs 인공지능 번역 대결 보도
+                    <p>
+                        <img src="/img/01_company/history_02.jpg" alt="" />
+                    </p>
+                </li>
+                <li><span>2022</span>미국 캐나다 유럽 해외 업무 진행 예정</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="google_map">
+    <div class="location_wrap">
+        <h2>찾아오시는길</h2>
+<!----------------------------------------------------------------------------------------------------------------------------------------
+### 구글맵설정 ###
+1. 구글맵(https://www.google.co.kr/maps)
+2. 원하시는 위치를 찾으신 뒤 오른쪽 마우스(이곳이 궁금하신가요클릭)
+3. 하단의 레이어창이뜨면 클릭(빨간색으로 표시됩니다.)
+4. 좌측의 패널에서 공유버튼 클릭
+5. 지도 퍼가기를 클릭후 HTML 복사 버튼을 클릭해서 아래의 <iframe... 소스코드와 교체해주시면 되겠습니다.
+----------------------------------------------------------------------------------------------------------------------------------------->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d279.79873355138454!2d127.02805872114132!3d37.4946774128875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca15a8c5369c3%3A0xfbdcc89bcc6164ab!2z7KSR7JWZ7Ya167KI7Jet7IS87YSw!5e0!3m2!1sko!2skr!4v1635915548721!5m2!1sko!2skr" width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</div>

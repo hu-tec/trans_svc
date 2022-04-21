@@ -1,0 +1,152 @@
+<div class="page-wraper mb-5">
+  <div class="container">
+      <nav id="CPY_Sub_Link" class="nav nav-pills nav-fill pb-5">
+        <a id="cpy_intro" href="javascript:void(0);" class="col-sm-4 nav-item nav-link">회사소개</a>
+        <a id="cpy_metatrans_intro" href="javascript:void(0);" class="col-sm-4 nav-item nav-link active">메타 트랜스 소개</a>
+        <a id="cpy_service_intro" href="javascript:void(0);" class="col-sm-4 nav-item nav-link">서비스소개</a>
+      </nav>
+  </div>
+    <div class="page-wrap">
+        <div class="wrap container">
+          <!-- 내용 -->
+        <section class="sec1 wrap container" style="padding-top: 0px;padding-bottom: 0px;">
+            <div class="sec1-con">
+                <ul class="row">
+                  <li><h5>109 언어</h5><p>번역가능 언어수</p></li>
+                  <li><h5>34억 달러</h5><p>그롤벌 통번역<br>시장규모</p></li>
+                  <li><h5>2조 2천억</h5><p>국내 통번역<br>시장규모</p></li>
+                  <li><h5>17,000명</h5><p>자사보유 <br>번역 · 통역사 및<br>감수그룹</p></li>
+                  <li><h5>195 개국</h5><p>활용가능 국가 수</p></li>
+                </ul>
+            </div>
+        </section>
+        <section class="sec2 wrap container text-center" style="padding-top: 0px;padding-bottom: 0px;">
+          <p class="main-txt">24시간 언제 어디서든<br><span>인공지능 언어</span> 비서를 활용해보세요.</p>
+          <p>AI 번역 · 전문가 감수 · 음성번역 서비스를 통해 글로벌 업무를 진행하세요.</p>
+          <div class="cycle row">
+              <img class="text-center" src="/intro_img/cycle.jpg" alt="">
+              <p>＋</p>
+              <div>
+                  <div class="imgCircle">
+                      <img src="/intro_img/search.png" alt="">
+                  </div>
+                  <p>전문가 감수</p>
+              </div>
+          </div>
+        </section>
+        <section class="sec3 wrap container" style="padding-top: 0px;padding-bottom: 0px;">
+          <div class="row circle-intro">
+            <div>
+                <div class="circle">
+                    <img src="/intro_img/reason_6.png" alt="">
+                </div>
+                <div class="text-intro">
+                    <p>원본파일<br>동일</p>
+                    <p>업로드 파일을<br>변환없이<br>그대로 번역</p>
+                </div>
+            </div>
+            <div>
+                <div class="circle">
+                    <img src="/intro_img/reason_4.png" alt="">
+                </div>
+                <div class="text-intro">
+                    <p>109개국 언어</p>
+                    <p>시간과 장소에<br>구애받지 않는<br>109개 언어<br>AI 번역 서비스</p>
+                </div>
+            </div>
+            <div>
+                <div class="circle">
+                    <img src="/intro_img/reason_5.png" alt="">
+                </div>
+                <div class="text-intro">
+                    <p>전문가 감수</p>
+                    <p>700여명의<br>국내 전문교수진과<br>원어민 자문그룹</p>
+                </div>
+            </div>
+            <div>
+                <div class="circle">
+                    <img src="/intro_img/reason_3.png" alt="">
+                </div>
+                <div class="text-intro">
+                    <p>음성인식</p>
+                    <p>STT, TTS 기술로 <br>음성을 Text로<br>Text를 음성으로<br>이용가능</p>
+                </div>
+            </div>
+            <div>
+                <div class="circle">
+                    <img src="/intro_img/reason_1.png" alt="">
+                </div>
+                <div class="text-intro">
+                    <p>24시간</p>
+                    <p>언제, 어디서든<br>시간, 장소 제약없이<br>이용가능</p>
+                </div>
+            </div>
+            <div>
+                <div class="circle">
+                    <img src="/intro_img/reason_2.png" alt="">
+                </div>
+                <div class="text-intro">
+                    <p>저렴한 가격</p>
+                    <p>일반번역 대비 <br>최대 50% 저렴한<br> 가격으로 변역</p>
+                </div>
+            </div>
+          </div>
+        </section>
+        <section class="sec4 wrap container" style="padding-top: 0px;padding-bottom: 0px;">
+          <h5>어떤 문서를 원하시나요?</h5>
+          <p>PPT, EXCEL, WORD, 동영상, 웹사이트, 등 원하는 문서를 
+            업로드 하시고 다운을 받으시면 됩니다.</p>
+          <section class="sec4-part01" style="padding-top: 0px;padding-bottom: 0px;">
+            <div class="row">
+              <div class="col-sm-3"><p>문서</p></div>
+              <div class="col-sm-3"><p>STT</p></div>
+              <div class="col-sm-3"><p>TTS</p></div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3"><p>이미지</p></div>
+              <div class="col-sm-3"><p>동영상</p></div>
+              <div class="col-sm-3"><p>웹사이트</p></div>
+            </div>
+          </section>
+          <h5>어떤 언어를 원하시나요?</h5>
+          <p>전세계 109개국의 언어를 번역, 원하는 언어를 선택하세요..</p>
+          <section class="sec4-part02" style="padding-top: 0px;padding-bottom: 0px;">
+            <div class="row">
+              <div class="col-3"><p>Russian</p></div>
+              <div class="col-3"><p>Chinese</p></div>
+              <div class="col-3"><p>Japanese</p></div>
+          </div>
+          <div class="row">
+              <div class="col-3"><p>Itanlian</p></div>
+              <div class="col-3"><p>English</p></div>
+              <div class="col-3"><p>Portuguese</p></div>
+          </div>
+          <div class="row">
+              <div class="col-3"><p>French</p></div>
+              <div class="col-3"><p>German</p></div>
+              <div class="col-3"><p>Hindi</p></div>
+          </div>
+          </section>
+          <h5>어떤 전문가가 감수를 진행하나요?</h5>
+          <p>작성한 문서는 즉각적인 번역사 감수를 통해 보다 더 완벽하게 번역됩니다.</p>
+          <section class="sec4-part03" style="padding-top: 0px;padding-bottom: 0px;">
+            <div class="row">
+              <div class="col-sm-3"><p>변호사</p></div>
+              <div class="col-sm-3"><p>노무사</p></div>
+              <div class="col-sm-3"><p>프로그래머</p></div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3"><p>업종별전문</p></div>
+              <div class="col-sm-3"><p>번역전문가</p></div>
+              <div class="col-sm-3"><p>경영컨설팅</p></div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3"><p>해외전문가</p></div>
+              <div class="col-sm-3"><p>해외마케팅</p></div>
+              <div class="col-sm-3"><p>영업전문가</p></div>
+            </div>
+          </section>
+        </section>
+        </div>
+    </div>
+</div>

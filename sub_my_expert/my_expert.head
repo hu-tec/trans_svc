@@ -1,0 +1,38 @@
+    <link rel="stylesheet" href="/common/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/common/css/jquery.dataTables.min.css">
+
+    <script type="text/javascript" src="/common/js/bootstrap.bundle.min.js"></script>  
+    <script type="text/javascript" src="/common/js/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="/common/js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="/common/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="/inc/inc_js.js?v=<?echo time()?>"></script>
+
+    <link rel="stylesheet" href="/old_css/styles_career_admin.css?v=<?echo time()?>">
+    <link rel="stylesheet" href="/old_css/styles.css?v=<?echo time()?>">
+    <link rel="stylesheet" href="/css/translate.css?v=<?echo time()?>">
+
+    <style>
+        .btn-sm {
+            padding: .3rem 1rem;
+            font-size: .75rem;
+            border-radius: .2rem;
+        }
+        table, .form-control-sm, .form-select-sm {
+            font-size: .75rem;
+        }
+        .dataTables_wrapper {
+            font-size: .75rem !important;
+        }
+        table.dataTable {
+            border-top: 1px solid #EAEDED !important;
+            border-bottom: 1px solid #EAEDED !important;
+        }
+        .file-upload-button{
+            padding: 1px 5px !important;
+            background-color:#FF6600 !important;
+            border-radius: 4px !important;
+            color: white !important;
+            cursor: pointer !important;
+        }
+    </style>
+    

@@ -1,0 +1,8 @@
+    <div id="MyPageMenu" class="tabs is-boxed is-medium">
+        <ul>
+            <li class="is-active" id="user_mypage_document"><a>내 문서</a></li>
+            <!-- <li id="user_mypage_request"><a>업무진행</a></li> -->
+            <li id="user_mypage_point"><a>포인트/결제</a></li>
+            <li id="user_mypage_info"><a>개인정보</a></li>
+        </ul>
+    </div>

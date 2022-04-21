@@ -1,0 +1,199 @@
+<div class="loading">
+    <div class="d-flex justify-content-center ">
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+</div>
+<div class="bg-gray">
+<div class="wrap">
+    <ul class="nav nav-tabs" id="subMenu">
+        <li class="nav-item">
+            <a id="subMenu_1" class="nav-link active" href="#">작업 할당</a>
+        </li>
+        <li class="nav-item">
+            <a id="subMenu_2" class="nav-link" href="#">휴먼번역 최종 승인</a>
+        </li>
+        <li class="nav-item">
+            <a id="subMenu_3" class="nav-link" href="#">전체 현황</a>
+        </li>
+        <li class="nav-item">
+            <a id="subMenu_4" class="nav-link" href="#">매출 현황</a>
+        </li>
+        <li class="nav-item">
+            <a id="subMenu_5" class="nav-link" href="#">사용자 관리</a>
+        </li>
+        <li class="nav-item">
+            <a id="subMenu_6" class="nav-link" href="#">출금 요청</a>
+        </li>
+        <li class="nav-item">
+            <a id="subMenu_7" class="nav-link" href="#">알림 목록/관리</a>
+        </li>
+        <li class="nav-item">
+            <a id="subMenu_8" class="nav-link" href="#">알림 작성</a>
+        </li>
+    </ul>
+</div>
+<div id="LIST_AREA1" class="wrap" style="display:block">
+    <div class="documentBTN flex">
+        <select name="" id="SVC_Type">
+            <option value="-">전체</option>
+            <option value="0">문서</option>
+            <option value="1">TTS</option>
+            <option value="2">STT</option>
+            <option value="3">영상</option>
+            <option value="4">동시통역</option>
+            <option value="5">유튜브</option>
+        </select>
+        <select name="" id="Status">
+            <option value="-">전체</option>
+            <option value="0">진행중</option>
+            <option value="100">완료</option>
+        </select>
+        <select name="" id="SVCOption" class="Emergency">
+            <option value="-">전체</option>
+            <option value="Urgent">긴급</option>
+            <option value="QPremium">프리미엄</option>
+            <option value="Layout">형식유지</option>
+        </select>
+        <select id="Expert">
+            <option value="-" selected>- 전문가 선택 -</option>
+        </select>
+        <input id="StartDate" type="date" style="width: 125px;">
+        <p>~</p>
+        <input id="EndDate" type="date" style="width: 125px;">
+        <button id="Btn_Search" class="btn-black">검색</button>
+    </div>
+</div>
+<div id="LIST_AREA2" class="wrap" style="display:block">
+    <table id="TransRequetList" class="table-hover stripe hover row-border order-column" style="width:100%;display:">
+    <thead>
+        <tr>
+            <th class="text-center">No</th>
+            <th class="text-center">분류</th>
+            <th class="text-center">고객</th>
+            <th class="text-center">결제일</th>
+            <th class="text-center">Project</th>
+            <th class="text-center">Job</th>
+            <th class="text-center">언어</th>
+            <th class="text-center">문서명/오디오듣기</th>
+            <th class="text-center">처리량</th>
+            <th class="text-center">비용</th>
+            <th class="text-center">예상시간</th>
+            <th class="text-center">서비스유형</th>
+            <th class="text-center">선택옵션</th>
+            <th class="text-center">형식유지</th>
+            <th class="text-center">긴급번역</th>
+            <th class="text-center">전문감수</th>
+            <th class="text-center">Category</th>
+            <th class="text-center">Expert</th>
+            <th class="text-center">전문가선택</th>
+            <th class="text-center">진행상태</th>
+            <th class="text-center">jid</th>
+            <th class="text-center">fchk1</th>
+            <th class="text-center">fchk2</th>
+        </tr>
+    </thead>
+    </table>
+</div>
+<div id="USER_LIST" class="wrap" style="display:none; padding:5px">
+    <table style="border-collapse: separate;border-spacing: 10px 15px;table-layout:fixed;">
+        <tr>
+            <td>
+                <table><tr><td>
+                <input type="date" id="ULIST_StartDate" style="width: 150px;" class="form-control form-control-sm"></td><td>~</td><td>
+                <input type="date" id="ULIST_EndDate" style="width: 150px;" class="form-control form-control-sm"></td></tr></table>
+            </td><td>
+                <select id="ULIST_Type" class="form-select form-select-sm">
+                    <option value="-" selected>- 고객 유형 선택 -</option>
+                    <option value="1">사용자</option>
+                    <option value="21">전문가</option>
+                    <option value="99">관리자</option>
+                </select>
+            </td>
+            <td>
+                <button id="Btn_User_Search" type="button" class="btn btn-sm btn-success">검색</button>
+            </td>
+        </tr>
+    </table>
+    <table id="UserList" class="table-hover stripe hover row-border order-column" style="width:100%;">
+    <thead>
+        <tr>
+            <th class="text-center">No</th>
+            <th class="text-center">가입일</th>
+            <th class="text-center">idx</th>
+            <th class="text-center">EMail</th>
+            <th class="text-center">성명</th>
+            <th class="text-center">전화</th>
+            <th class="text-center">구분</th>
+            <th class="text-center">grade</th>
+            <th class="text-center">은행</th>
+            <th class="text-center">계좌번호</th>
+            <th class="text-center">생년월일</th>
+            <th class="text-center">birthday_mm</th>
+            <th class="text-center">birthday_dd</th>
+            <th class="text-center">탈퇴</th>
+            <th class="text-center">상태</th>
+        </tr>
+    </thead>
+    </table>
+</div>
+<div id="POINTOUT_LIST" class="wrap" style="display:none; padding:5px">
+    <table id="PointOutList" class="table-hover stripe hover row-border order-column" style="width:100%;">
+    <thead>
+        <tr>
+            <th class="text-center">No</th>
+            <th class="text-center">요청일</th>
+            <th class="text-center">idx</th>
+            <th class="text-center">EMail</th>
+            <th class="text-center">성명</th>
+            <th class="text-center">생년월일</th>
+            <th class="text-center">전화</th>
+            <th class="text-center">구분</th>
+            <th class="text-center">은행</th>
+            <th class="text-center">계좌번호</th>
+            <th class="text-center">출금액</th>
+            <th class="text-center">입금여부</th>
+        </tr>
+    </thead>
+    </table>
+</div>
+<div id="ALERT_LIST" class="wrap" style="display:none; padding:5px">
+    <table id="AlertList" class="table-hover stripe hover row-border order-column" style="width:100%;">
+    <thead>
+        <tr>
+            <th class="text-center">No</th>
+            <th class="text-center">idx</th>
+            <th class="text-center">작성일(편집)</th>
+            <th class="text-center">작성자</th>
+            <th class="text-center">내용</th>
+            <th class="text-center">대상자</th>
+            <th class="text-center">삭제여부</th>
+        </tr>
+    </thead>
+    </table>
+</div>
+<div id="ALERT_EDIT" class="wrap" style="display:none; padding:5px">
+    <div style="width:1200px; margin: 0 auto;">
+        <div class="box div-box">
+            <div class="guide-box">
+                <select id="AlertType" class="form-select form-select-sm" style="width:150px">
+                    <option value="-" selected>- 공지 대상 선택 -</option>
+                    <option value="0">전체</option>
+                    <option value="1">사용자</option>
+                    <option value="21">전문가</option>
+                </select>
+            </div>
+            <div class="guide-box">
+                <div class="text-guide"><b>공지문</b></div>
+            </div>
+            <div class="text-box">
+                <textarea id="AlertContent" style="resize: none;" class="textarea" placeholder="공지할 메시지를 입력하세요."></textarea>
+            </div>
+            <div class="guide-box">
+                <button type="button" id="BTN_Alert_Save" class="btn btn-sm btn-success">공지 사항 저장</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

@@ -1,0 +1,73 @@
+<div class="loading">
+    <div class="d-flex justify-content-center ">
+        <div class="spinner-border" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+</div>
+<div class="bg-gray">
+    <div class="wrap">
+        <?include "step.page";?>
+        <section>
+            <div class="file-all">
+                <div class="file-box">
+                    <div class="lang-trans">
+                        <select class="btn-a" id="SrcLang">
+                            <option class="div2" value="-">원본 언어</option>
+                        </select>
+                        <img id="Lang_Change" src="/img/arrow.png" title="언어 바꾸기" alt="" style="transform:rotate(-90deg); width: 13px;">
+                        <select class="btn-a" id="TgtLang">
+                            <option class="div2" value="-">번역 안 함</option>
+                        </select>
+                        <button class="btn-s btn-white popupFileBox hoverPopup">자세히</butto>
+                        <div class="showPopupFileBox showPopup">
+                            <p>1. 유튜브 영상 링크를 입력해 주세요.<br>
+                                2. 195개국에 109개 언어로 변환가능합니다.<br>
+                                3. 24시간 시간 장소 제약없는 영상번역 서비스를 활용하세요.<br>
+                                사용처 : 회사소개,제품소개,브로셔
+                            </p>
+                        </div>
+                    </div>
+                    <img src="/img/6.png" alt="" class="youtubeImage"><br>
+                    <div class="youtubeURL">
+                        <input type="text" id="Youtube_URL" placeholder="유튜브 URL을 입력해주세요.">
+                        <button id="BTN_YouTube">추출</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+<?include "sub_cost_inc/quotation.page";?>
+
+<div id="DIV_YouTubeList" class="wrap" style="display:none">
+    <div class="trans-btn" style="display:flex">
+        <h6>세부내용</h6>
+        <div class="hr"></div>
+    </div>
+    <table id="YouTubeList" class="table-hover" style="width:100%;font-size:12px;">
+        <thead>
+            <tr>
+                <th class="text-center">Seq</th>
+                <th class="text-center">sdate</th>
+                <th class="text-center">PJTName</th>
+                <th class="text-center">JobName</th>
+                <th class="text-center">영상 제목</th>
+                <th class="text-center">언어</th>
+                <th class="text-center">대상언어</th>
+                <th class="text-center">영상 시간</th>
+                <th class="text-center">비용</th>
+                <th class="text-center">진행상태</th>
+                <th class="text-center">Type</th>
+                <th class="text-center">품질</th>
+                <th class="text-center">긴급</th>
+                <th class="text-center">Expert</th>
+                <th class="text-center">작업예상</th>
+                <th class="text-center">FileChk</th>
+                <th class="text-center">선택</th>
+            </tr>
+        </thead>
+    </table>
+</div>
+<?include "sub_cost_inc/purchase.page";?>

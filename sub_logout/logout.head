@@ -1,0 +1,15 @@
+    <link rel="stylesheet" href="/common/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/common/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="/css/translate.css?v=<?echo time()?>">
+
+    <link rel="stylesheet" href="/old_css/styles.css?v=<?echo time()?>">
+    <link rel="stylesheet" href="/old_css/style2.css?v=<?echo time()?>">
+    <link rel="stylesheet" href="/old_css/vshop.css?v=<?echo time()?>">
+    <link rel="stylesheet" href="/old_css/custom.css?v=<?echo time()?>">
+    <link rel="stylesheet" href="/old_css/bulma.bootstrap.css?v=<?echo time()?>">
+    <style>
+        html, body{
+            font-family: "Nanum Gothic" !important;
+            font-size: 0.9rem !important;
+        }
+    </style>

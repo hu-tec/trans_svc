@@ -1,0 +1,47 @@
+<div class="flex container amountNav mb-3" id="CPY_Sub_Link">
+    <a href="javascript:void(0);" id="cpy_amount" class="col-sm-6 text-center p-2 active">이용금액</a>
+    <a href="javascript:void(0);" id="cpy_refund"class="col-sm-6 text-center p-2">환뷸규정</a>
+</div>
+<div class="f-info">
+    <h1 class="container">이용금액</h1>
+</div>
+<hr>
+<div class="refund amount container">
+    <h3>번역서비스 이용금액</h3>
+    <p class="text-right gridTopTxt">(한국어 - 영어 기준)</p>
+    <div class="wrapper">
+        <div class="item">구분</div>
+        <div class="item">이용금액(1자기준)</div>
+        <div class="item">A4한장 기준 금액</div>
+        <div class="item">AI 텍스트 번역</div>
+        <div class="item">텍스트</div>
+        <div class="item">0.01 (10원/100자)</div>
+        <div class="item">65원</div>
+        <div class="item">텍스트 + 휴먼감수</div>
+        <div class="item">22원</div>
+        <div class="item">14,300원</div>
+        <div class="item">AI 문서 번역</div>
+        <div class="item">문서</div>
+        <div class="item">1.5원 (150원/100자)</div>
+        <div class="item">975원</div>
+        <div class="item">문서 + 휴먼감수</div>
+        <div class="item">28원</div>
+        <div class="item">18,200원</div>
+        <div class="item">휴먼 번역</div>
+        <div class="item">휴먼 번역</div>
+        <div class="item">43원</div>
+        <div class="item">27,950원</div>
+        <div class="item">추가사항</div>
+        <div class="item">변호사, 회계사 등전문분야 감수 시 문의</div>
+        <div class="item">김급 번역 및 전문가 감수 시 전체 금액에 50% 추가</div>
+    </div>
+    <p class="text-right gridBtmTxt" style="padding-bottom: 0!important; ">*1장 - 12포인트, 22라인, 좌우 3CM기준 650자 기준 시
+        <br>*문서:PPT,Excel,Word (문서 파일 편집이 필요한 경우 별도 문의바람)</p>
+    <br>
+    <hr>
+    <h3>추가 서비스 - 음성번역</h3>
+    <p>*텍스트 → 음성으로 변환 서비스 이용 시 각 서비스 추가<br>
+    (ex-'안녕하세요' 텍스트 입력 → 음성으로 번역 시 5글자: 0.05원(0.01원×5자) + 10원 = 10.05원)</p>
+    <hr>
+    <h3>웹사이트번역 · 동영상 번역은 별도 문의 바랍니다.</h3>
+</div>

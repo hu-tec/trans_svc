@@ -1,0 +1,236 @@
+<div class="container">
+    <div id="app" data-categ="1305" data-mid="" data-point="586262" data-member_id="hutechc" data-member_name="관리자">
+        <div class="columns is-mobile is-5-desktop is-multiline">
+            <div class="column is-half-mobile">
+                <div class="cardb">
+                    <header class="cardb-header">
+                        <p class="cardb-header-title">보유 포인트</p>
+                    </header>
+                    <div class="cardb-content">
+                        <div class="content has-text-centered ">
+                            <div class="columns ">
+                                <div class="column " style="margin: auto;">
+                                <span class="title is-5 has-text-link-dark2">586,262</span>
+                                <span class="title is-5">
+                                    <i aria-hidden="true" class="fab fa-product-hunt"></i>
+                                </span>
+                            </div>
+                                <div class="column">
+                                    <div class="text-center">
+                                        <button id="BTN_Recharge_Open" data-bs-toggle="modal" data-bs-target="#pointIn" class="button is-info">포인트 충전</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="cardb">
+                    <header class="cardb-header">
+                        <p class="cardb-header-title">
+                            수익 포인트
+                        </p>
+                    </header>
+                    <div class="cardb-content">
+                        <div class="content has-text-centered">
+                            <div class="columns ">
+                                <div class="column " style="margin: auto;">
+                                    <span class="title is-5 has-text-link-dark2">0</span>
+                                    <span class="title is-5">
+                                        <i aria-hidden="true" class="fab fa-product-hunt"></i>
+                                    </span>
+                                </div>
+                                <div class="column">
+                                    <div class="text-center">
+                                        <button data-bs-toggle="modal" data-bs-target="#pointOut" class="button is-danger">출금 신청</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content pb-5 pt-3">
+            <div class="title is-5 pl-3">거래내역</div>
+            <hr>
+            <ul>
+                <li>거래내역은 삭제가 불가능하며 기간을 설정하여 조회할 수 있습니다.</li>
+            </ul>
+        </div>
+        <div class="columns">
+            <div class="column">
+                <div class="tabs is-toggle">
+                    <ul>
+                        <li class=""><a><span>전체</span></a></li>
+                        <li class=""><a><span>포인트 충전</span></a></li>
+                        <li class=""><a><span>포인트 적립</span></a></li>
+                        <li class=""><a><span>포인트 사용</span></a></li>
+                        <li class="is-active"><a><span>출금신청</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column"></div>
+            <div class="column">
+                <div class="field has-addons is-justify-content-flex-end">
+                    <p class="control"><input type="date" placeholder="날짜" class="input"></p>
+                    <p class="control"><input type="date" placeholder="날짜" class="input"></p>
+                    <div class="control "><a class="button is-info ">검색</a></div>
+                </div>
+            </div>
+        </div>
+        <table id="PointList" class="display" style="width:100%;font-size:14px;">
+            <thead>
+                <tr>
+                    <th class="text-center">Seq</th>
+                    <th class="text-center">구분</th>
+                    <th class="text-center">포인트사용/충전</th>
+                    <th class="text-center">일시</th>
+                    <th class="text-center">비고</th>
+                    <th class="text-center">입금일</th>
+                </tr>
+            </thead>
+        </table>
+        <!--------------------------------------------------------->
+        <div id="pointOut" tabindex="-1" aria-labelledby="pointOutLabel" aria-hidden="true" class="modal fade">
+            <div class="modal-dialog ">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 id="pointOutLabel" class="modal-title">전환 출금 요청 포인트</h5>
+                        <button type="button" data-bs-dismiss="modal" aria-label="Close" class="close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6"><input type="number" placeholder="출금신청금액" class="input"></div>
+                            <div class="col-md-6"><button type="button" class="btn btn-primary btn-block">전환 출금 신청</button></div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" data-bs-dismiss="modal" aria-label="Close" class="btn  btn-outline-primary">취소</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------------------------------------------------------->
+        <div id="pointIn" tabindex="-1" aria-labelledby="pointInLabel" aria-hidden="true" class="modal fade">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 id="pointInLabel" class="modal-title">포인트 충전</h5>
+                        <button type="button" data-bs-dismiss="modal" aria-label="Close" class="close">
+                            <span id="BTN_Recharge_Cancel" aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div>
+                            <div class="title is-6">포인트를 충전하세요. ( 1<i aria-hidden="true"
+                                    class="fab fa-product-hunt"></i> = 1원 )</div>
+                            <div class="columns is-mobile is-multiline">
+                                <div class="column is-half-mobile">
+                                    <button class="button  is-fullwidth is-info">
+                                        <i aria-hidden="true" class="fab fa-product-hunt"></i>&nbsp;1,000
+                                    </button>
+                                </div>
+                                <div class="column is-half-mobile">
+                                    <button class="button is-fullwidth is-info">
+                                        <i aria-hidden="true" class="fab fa-product-hunt"></i>&nbsp;5,000
+                                    </button>
+                                </div>
+                                <div class="column is-half-mobile">
+                                    <button class="button is-fullwidth is-info">
+                                        <i aria-hidden="true" class="fab fa-product-hunt"></i>&nbsp;10,000
+                                    </button>
+                                </div>
+                                <div class="column is-half-mobile">
+                                    <button class="button is-fullwidth is-info">
+                                        <i aria-hidden="true" class="fab fa-product-hunt"></i>&nbsp;50,000
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="columns is-mobile is-multiline">
+                                <div class="column is-half-mobile">
+                                    <button class="button is-fullwidth is-info">
+                                        <i aria-hidden="true" class="fab fa-product-hunt"></i>&nbsp;100,000
+                                    </button>
+                                </div>
+                                <div class="column is-half-mobile">
+                                    <button class="button is-fullwidth is-info">
+                                        <i aria-hidden="true" class="fab fa-product-hunt"></i>&nbsp;500,000
+                                    </button>
+                                </div>
+                                <div class="column is-half-mobile">
+                                    <button class="button is-fullwidth is-info">
+                                        <i aria-hidden="true" class="fab fa-product-hunt"></i>&nbsp;1,000,000
+                                    </button>
+                                </div>
+                                <div class="column is-half-mobile">
+                                    <button class="button is-fullwidth is-info">
+                                        <i aria-hidden="true" class="fab fa-product-hunt"></i>&nbsp;1,500,000
+                                    </button>
+                                </div>
+                            </div>
+                            <table class="table is-fullwidth table is-hoverable">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" width="30%" class="has-text-centered">충전포인트</th>
+                                        <td scope="col" class="has-text-centered">
+                                            <i aria-hidden="true"class="fab fa-product-hunt"></i>0
+                                        </td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr style="border-bottom: 2px solid rgb(85, 85, 85);">
+                                        <th scope="row" class="has-text-centered">
+                                            <span class="notranslate">결제금액</span></th>
+                                        <td class=" has-text-centered notranslate">
+                                            <b>0원</b>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="title is-6 pl-3">
+                                <i aria-hidden="true" class="fas fa-angle-right"></i>결제 방식
+                            </div>
+                            <div class="columns control pl-3 is-multiline is-mobile">
+                                <div class="column is-half-mobile">
+                                    <label class="radio">
+                                        <input type="radio" name="PG_MID" value="nxca_jt_il">카드결제
+                                    </label>
+                                </div>
+                                <div class="column is-half-mobile">
+                                    <label class="radio">
+                                        <input type="radio" name="PG_MID" value="nx_mid_il">실시간 계좌이체
+                                    </label>
+                                </div>
+                                <div class="column is-half-mobile">
+                                    <label class="radio">
+                                        <input type="radio" name="PG_MID" value="nxhp_pl_il">휴대폰결제
+                                    </label>
+                                </div>
+                                <div class="column is-half-mobile">
+                                    <label class="radio">
+                                        <input type="radio" name="PG_MID" value="bank">무통장 입금
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="has-text-centered">
+                                <button id="BTN_Recharge_Go" class="button is-link is-outlined">충전하기</button>
+                                &nbsp; <button id="BTN_Recharge_Cancel" data-bs-dismiss="modal" aria-label="Close" class="button is-light ">취소</button>
+                            </div>
+                            <br>
+                            <div class="title is-6 pl-3">
+                                <i aria-hidden="true" class="fas fa-angle-right"></i>이용안내 및 주의 사항
+                            </div>
+                            <div class="notification has-text-grey">
+                                포인트 충전금액은 현금으로 환급이 불가합니다.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

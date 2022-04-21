@@ -1,0 +1,155 @@
+<div id="titleArea">
+    <h2>이용금액</h2>
+    <span><a href="#none" onclick="history.go(-1);return false;">뒤로가기</a></span>
+</div>
+
+<div class="tab_wrap" id="CPY_Sub_Link">
+    <ul id="CPY_Sub_Link" class="nav nav-pills nav-fill">
+        <li><a href="/?svc=price" class="active">이용금액</a></li>
+        <li><a href="/?svc=cpy_refund">환불규정</a></li>
+    </ul>
+</div>
+
+<div id="price">
+    <div class="title">
+        <h2>메타트랜스 가격표</h2>
+        <p>AI번역으로 24시간 빠르고 정확한 번역을 저렴하게 받아보실 수 있습니다.<br />
+        검증된 전문가들의 확실한 번역 서비스를 지금 겪어보세요.</p>
+    </div>
+
+    <div class="price_table">
+        <ul>
+            <li class="head">
+                <ul>
+                    <li>
+                        <h3>DESCRIPTION</h3>
+                    </li>
+                    <li>
+                        <h3>구분</h3>
+                    </li>
+                    <li>
+                        <h3>금액</h3>
+                    </li>
+                    <li>
+                        <h3>A4 한 장</h3>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <ul>
+                    <!-- 문서번역 -->
+                    <li class="one_row">
+                        <h4 class="icon_01">문서번역</h4>
+                        <ul class="icon_sub">
+                            <li>
+                                <ul class="shadow">
+                                    <li class="head_color">
+                                        <h5>AI 번역</h5>
+                                    </li>
+                                    <li>
+                                        <p>글자 당 1.5원</p>
+                                    </li>
+                                    <li>
+                                        <p>952원</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="shadow">
+                                    <li class="head_color">
+                                        <h5>AI 번역 + 휴먼 감수</h5>
+                                    </li>
+                                    <li>
+                                        <p>글자 당 15원</p>
+                                    </li>
+                                    <li>
+                                        <p>9,732원</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="shadow">
+                                    <li class="head_color">
+                                        <h5>전문가 휴먼 번역</h5>
+                                    </li>
+                                    <li>
+                                        <p>글자 당 50.5원</p>
+                                    </li>
+                                    <li>
+                                        <p>32,825원</p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- 텍스트 음성 번역 -->
+                    <li class="one_row">
+                        <h4 class="icon_02">텍스트       음성<br />번역</h4>
+                        <ul class="icon_sub">
+                            <li>
+                                <ul class="tts_box">
+                                    <li class="head_color shadow">
+                                        <h5>TTS 서비스 <span>텍스트 → 음성으로 변환 서비스 이용 시 서비스 추가</span></h5>
+                                    </li>
+                                    <li>
+                                        <p>글자당 0.87원</p>
+                                    </li>
+                                    <li class="shadow">
+                                        <p>ex. '안녕하세요' 텍스트 입력> 음성으로 변환시  6글자 5.22원 (0.87x6자)<br /><!--휴먼 감수 추가시 글자당 16.9원씩 추가 | -->AI 번역 추가시 글자당 15.5원씩 추가</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="tts_box">
+                                    <li class="head_color shadow">
+                                        <h5>STT 서비스 <span>음성 → 텍스트로 변환 서비스 이용 시 서비스 추가</span></h5>
+                                    </li>
+                                    <li>
+                                        <p>1분 당 98원</p>
+                                    </li>
+                                    <li class="shadow">
+                                        <p>휴먼감수 서비스 추가시, 1분당 2,535원 추가<br />
+                                        ex-계약 문서 A4 한 장 600자 미만(5분 기준) 576원<br />
+                                        휴먼 감수 A4 한 장 600자 미만 (5분 기준) 12,700원</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="shadow">
+                                    <li class="head_color">
+                                        <h5>웹사이트 번역, 동영상</h5>
+                                    </li>
+                                    <li>
+                                        <p>별도 문의</p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- 추가 서비스 -->
+                    <li class="one_row">
+                        <h4 class="icon_03">추가 서비스</h4>
+                        <ul class="icon_sub">
+                            <li>
+                                <ul class="shadow">
+                                    <li class="head_gray">
+                                        <h5>전문가 컨설팅 50%</h5>
+                                    </li>
+                                    <li>
+                                        <p>긴급 서비스 50%</p>
+                                    </li>
+                                    <li>
+                                        <p>파일 편집 서비스  30%~</p>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>

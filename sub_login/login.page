@@ -1,0 +1,35 @@
+<div class="bg-gray">
+    <div class="wrap">
+        <div class="auth-content container">
+            <div class="card" style="margin-top:1rem">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <form name="loginform" class="loginform">
+                            <div class="card-body">
+                                <h4 class="mb-3 f-w-400">Log in</h4>
+                                <div class="form-group mb-3">
+                                    <label class="form-label">ID</label>
+                                    <input type="text" id="user_id" class="form-control" placeholder="아이디를 입력하세요">
+                                </div>
+                                <div class="form-group mb-1">
+                                    <label class="form-label">PASSWORD</label>
+                                    <input type="password" class="form-control" id="user_pass" placeholder="비밀번호를 입력하세요">
+                                    <small class="form-text text-muted"><a href="" style="color:#896eff;">아이디/비밀번호 찾기</a></small>
+                                </div>
+                                <div class="form-group text-left mt-2 pb-2">
+                                </div>
+                                <button id="LgoinBTN" class="btn btn-primary mb-3">Login</button>
+                                <p class="mb-2">아직 회원이 아니신가요?
+                                    <a style="color: #896eff !important" href="">회원가입</a>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6 d-none d-md-block">
+                        <img src="/old_img/img7.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,95 @@
+<div class="loading">
+    <div class="d-flex justify-content-center">
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+</div>
+<div class="bg-gray">
+    <div class="wrap">
+    <? include "sub_user/user_mypage_menu.page" ?>
+        <div class="resume_template">
+            <div class="">
+                <div class="flex row-document">
+                    <div class="detail_infobox">
+                        <div class="title">
+                            <p>전체</p>
+                            <i class="fas fa-minus-circle"></i>
+                        </div>
+                        <div class="number box"><span id="TotalCount" class="point">0</span>건</div>
+                    </div>
+                    <div class="detail_infobox">
+                        <div class="title">
+                            <p>완료</p>
+                            <i class="fas fa-minus-circle"></i>
+                        </div>
+                        <div class="number box"><span id="CompleteCount" class="point">0</span>건</div>
+                    </div>
+                    <div class="detail_infobox">
+                        <div class="title">
+                            <p>진행중</p>
+                            <i class="fas fa-minus-circle"></i>
+                        </div>
+                        <div class="number box"><span id="OngoingCount" class="point">0</span>건</div>
+                    </div>
+                </div>
+                <div class="documentBTN flex">
+                    <select name="" id="svctype">
+                        <option value="-">전체</option>
+                        <option value="0">문서</option>
+                        <option value="1">TTS</option>
+                        <option value="2">STT</option>
+                        <option value="3">영상</option>
+                        <option value="4">동시통역</option>
+                        <option value="5">유튜브</option>
+                    </select>
+                    <select name="" id="Status">
+                        <option value="-">전체</option>
+                        <option value="0">진행중</option>
+                        <option value="100">완료</option>
+                    </select>
+                    <select name="" id="SVCOption" class="Emergency">
+                        <option value="-">전체</option>
+                        <option value="Urgent">긴급</option>
+                        <option value="QPremium">프리미엄</option>
+                        <option value="Layout">형식유지</option>
+                    </select>
+                    <input id="StartDate" type="date" style="width: 125px;">
+                    <p>~</p>
+                    <input id="EndDate" type="date" style="width: 125px;">
+                    <button id="BTN_Search" class="btn-black">검색</button>
+                </div>
+            </div>
+            <table id="UserRequestList" class="table-hover stripe hover row-border order-column">
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>분류</th>
+                        <th>PJT</th>
+                        <th>일자</th>
+                        <th>언어</th>
+                        <th>fname1</th>
+                        <th>fname2</th>
+                        <th>문서명/오디오듣기</th>
+                        <th>처리량</th>
+                        <th>시간</th>
+                        <th>금액</th>
+                        <th>진행상태</th>
+                        <th>서비스유형</th>
+                        <th>layout</th>
+                        <th>qa</th>
+                        <th>urgent</th>
+                        <th>category</th>
+                        <th>선택옵션</th>
+                        <th>받기/삭제</th>
+                        <th>file1</th>
+                        <th>file2</th>
+                    </tr>
+                </thead>
+            </table>
+            <div class="last-con">
+                <p>자동작성 문서는 최처 생성일로부터 3일간 무료로 작성 및 보관할 수 있습니다. <br>시스템 이용료 결제 시 자동작성 문서를 6개월간 편집, 인쇄, 저장할 수 있습니다. <br>(다만, 정기권 또는 패키지는 해당 서비스 제공 조건에 따름)</p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,200 @@
+<div id="titleArea">
+    <h2>메타트랜스 소개</h2>
+    <span><a href="#none" onclick="history.go(-1);return false;">뒤로가기</a></span>
+</div>
+
+<div class="page-wraper mb-5">
+    <div class="tab_wrap">
+        <ul id="CPY_Sub_Link" class="nav nav-pills nav-fill">
+            <li><a href="#metatrans_about">메타트랜스 소개</a></li>
+			<li><a href="#service">서비스소개</a></li>
+        </ul>
+    </div>
+
+	<!-- 내용 -->
+	<div id="metatrans_about">
+		<div id="introduce">
+			<div class="top">
+				<div class="title">
+					<p class="sub">당신의 든든한 <span>인공지능 언어 비서</span></p>
+					<h2>메타트랜스</h2>
+					<p>24시간 언제 어디서든 AI 번역 · 전문가 감수 · 음성번역 서비스를 통해 글로벌 업무를 진행하세요.</p>
+				</div>
+				<div class="section">
+					<ul>
+						<li>
+							<h3>109 언어</h3>
+							<p>번역 가능 언어 수</p>
+						</li>
+						<li>
+							<h3>17,000명</h3>
+							<p>자사보유<br />
+							번역 · 통역사 및<br />
+							감수그룹</p>
+						</li>
+						<li>
+							<h3>34억 달러 </h3>
+							<p>글로벌 통 번역<br /> 시장 규모</p>
+						</li>
+						<li>
+							<h3>2조 2천억</h3>
+							<p>국내 통 번역<br />시장 규모</p>
+						</li>
+						<li>
+							<h3>195 개국</h3>
+							<p>활용 가능 국가 수</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="bottom">
+				<div class="title">
+					<h2><span>메타트랜스</span> 특징</h2>
+					<p>메타트랜스는 “다르니까”</p>
+				</div>
+				<div class="add_section">
+					<ul>
+						<li>
+							<h4>50%</h4>
+							<h3>저렴한 가격</h3>
+						</li>
+						<li>
+							<h4>3배</h4>
+							<h3>빠른 속도</h3>
+						</li>
+						<li>
+							<h4>24시간</h4>
+							<h3>업무</h3>
+						</li>
+						<li>
+							<h4>100%</h4>
+							<h3>완성도</h3>
+						</li>
+					</ul>
+				</div>
+				<div class="section">
+					<ul>
+						<li>
+							<h3>세계화</h3>
+							<p>ISO 17100/18537인증 </p>
+						</li>
+
+						<li>
+							<h3>음성인식 서비스</h3>
+							<p>STT TTS 기술로 음성을 Text 로 Text를 음성으로 이용가능 </p>
+						</li>
+
+						<li>
+							<h3>업무 서식 유지  </h3>
+							<p>업로드파일을 변환없이 그대로 번역</p>
+						</li>
+
+						<li>
+							<h3>업무 효율성 </h3>
+							<p>원스탑 서비스를 통한 비즈니스 업무 진행</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="service">
+		<section class="service_foot">
+			<h2>AI 번역 서비스</h2>
+			<p>
+				STT, TTS, 영상, 유튜브, WEB번역을 한 곳에서! <span>원 스톱 번역 해결</span>
+			</p>
+			<section class="service_disc">
+				<ul>
+					<li>
+						<h2>문서 서식 유지</h2>
+						사무실 문서를 업로드하고 원래 레이아웃과 서식을 유지하세요.<br  />
+						문서 간에 텍스트를 복사하여 붙여넣는 시간을 절약하세요.
+						<p>
+							doc, .docx, .ppt, .pptx, .xls .xlsx, .txt
+						</p>
+					</li>
+				</ul>
+			</section>
+			<ul>
+				<li>
+					<div>
+						<h3>STT 속기사 / TTS 아나운서</h3>
+						텍스트를 음성으로<br  />
+						음성을 텍스트로!<br /><br />
+						활용처: 도슨트,발표, 화상회의
+					</div>
+				</li>
+				<li>
+					<div>
+						<h3>영상 번역</h3>
+						영화,방송,엔터 콘텐츠별로<br />
+						필요한 니즈에 맞춰<br />
+						퀄리티 있는 번역을<br />
+						제공해드립니다.<br /><br />
+						사용처: 영화, 방송, 엔터테인먼트.교육영상.기업
+					</div>
+				</li>
+				<li>
+					<div>
+						<h3>Web 번역</h3>
+						109개국 언어로 <br />
+						웹 페이지 전체 번역<br /><br />
+						사용처: 공학, 바이도, 관광, 공기업,문화 예술, 영상 교육 분야 홈페이지
+					</div>
+				</li>
+				<li>
+					<div>
+						<h3>유튜브</h3>
+						글로벌 크리에이터의 성공전략!<br />
+						자막 번역 해드립니다. <br /><br />
+						사용처: 유튜브, 인스타그램, 인플루언서
+					</div>
+				</li>
+			</ul>
+		</section>
+
+		<section class="service_add">
+			<ul>
+				<li>
+					<div>
+						<h3>문서 번역</h3>
+						<p>
+							"회사 소개서를 해외 기업에 전달하셔야 하나요?"
+							<span>사용처 : 회사소개서, 제품설명서, 계약서</span>
+						</p>
+					</div>
+				</li>
+				<li>
+					<div>
+						<h3>STT 속기사 / TTS 아나운서</h3>
+						<p>
+							"회의록을 아직도 타이핑 치시나요?"
+							<span>사용처 : 도슨트, 발표, 화상회의</span>
+						</p>
+					</div>
+				</li>
+				<li>
+					<div>
+						<h3>유튜브, 영상, Web</h3>
+						<p>
+							"사내 방송을 위해 아직도 아나운서를 고용하시나요?"
+							<span>사용처 : 영화, 방송, 공학, 홈페이지, 유튜브</span>
+						</p>
+					</div>
+				</li>
+				<li>
+					<div>
+						<h3>동시 통역</h3>
+						<p>
+							"제품 동영상에 자막을 넣고, <br />해외 구독자들에게 소개하고 싶으세요?"
+							<span>사용처 : 해외 컨퍼런스콜, 화상회의, 해외 바이어 미팅</span>
+						</p>
+					</div>
+				</li>
+			</ul>
+		</section>
+	</div>
+</div>

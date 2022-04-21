@@ -1,0 +1,45 @@
+<div class="loading">
+    <div class="d-flex justify-content-center ">
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+</div>
+<div class="wrap">
+    <ul class="nav nav-tabs" id="subMenu">
+        <li class="nav-item">
+            <a id="subMenu_1" class="nav-link active" href="#">신규 작업</a>
+        </li>
+        <li class="nav-item">
+            <a id="subMenu_2" class="nav-link" href="#">전체 현황</a>
+        </li>
+    </ul>
+<div>
+<div class="wrap">
+    <table id="TransWorkList" class="table-hover stripe hover row-border order-column" style="width:100%;font-size:12px;display:">
+    <thead>
+        <tr>
+            <th class="text-center">No</th>
+            <th class="text-center">분류</th>
+            <th class="text-center" id="HEAD_EDIT"><font color="blue">편집</font></th>
+            <th class="text-center">Project</th>
+            <th class="text-center">Job</th>
+            <th class="text-center">언어</th>
+            <th class="text-center" id="HEAD_TYPE"><font color="blue">다운로드</font></th>
+            <th class="text-center">처리량</th>
+            <th class="text-center">예상시간</th>
+            <th class="text-center">서비스유형</th>
+            <th class="text-center">선택옵션</th>
+            <th class="text-center">형식유지</th>
+            <th class="text-center">긴급번역</th>
+            <th class="text-center">전문감수</th>
+            <th class="text-center">Category</th>
+            <th class="text-center">진행상태</th>
+            <th class="text-center">jid</th>
+            <th class="text-center">진행상태</th>
+            <th class="text-center">fchk1</th>
+            <th class="text-center">fchk2</th>
+        </tr>
+    </thead>
+    </table>
+</div>

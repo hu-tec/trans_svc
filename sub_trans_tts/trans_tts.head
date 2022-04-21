@@ -1,0 +1,72 @@
+<link rel="stylesheet" href="/common/css/bootstrap.min.css">
+<link rel="stylesheet" href="/common/css/jquery.dataTables.min.css">
+
+<script type="text/javascript" src="/common/js/bootstrap.bundle.min.js"></script>  
+<script type="text/javascript" src="/common/js/jquery-3.5.1.js"></script>
+<script type="text/javascript" src="/common/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="/inc/inc_js.js?v=<?echo time()?>"></script>
+<script type="text/javascript" src="https://npg.settlebank.co.kr/resources/js/v1/SettlePG.js"></script> 
+<script type="text/javascript" src="/processing/pg/pay_rstResult.js"></script>
+<link rel="stylesheet" href="/old_css/styles.css?v=<?echo time()?>">
+<link rel="stylesheet" href="/old_css/style2.css?v=<?echo time()?>">
+<link rel="stylesheet" href="/old_css/vshop.css?v=<?echo time()?>">
+<link rel="stylesheet" href="/old_css/custom.css?v=<?echo time()?>">
+<link rel="stylesheet" href="/old_css/bulma.bootstrap.css?v=<?echo time()?>">
+<link rel="stylesheet" href="/css/translate.css?v=<?echo time()?>">
+
+<style>
+    html, body{
+        font-family: "Nanum Gothic" !important;
+        font-size: 0.9rem !important;
+    }
+    /* .textclear:hover {
+        text-decoration:underline;
+        color : #888;
+    } */
+    .MessageBox{
+        position: fixed !important;
+        padding: 5px !important;
+        background-color: rgb(131, 118, 118) !important;
+        display: none !important;
+        width: 130px !important;
+        border-radius: 5px !important;
+        color: #fff !important;
+        transition: display 0.5s !important;
+    }
+    .box {
+        padding: 0rem !important;
+    }
+    .target-box-1, .target-box-2 {
+        width: 37.0rem !important;
+        height: 21rem !important;
+        margin: 0 0rem !important;
+    }
+    .target-box-3 {
+        width: 9.0rem !important;
+        height: 21rem !important;
+        margin: 0 0.4rem !important;
+        padding: 1.6rem 0.5rem !important;
+    }
+    .pay-box p {
+        font-size: 0.75rem !important;
+        color: #000 !important;
+        padding: 0.25rem 0 1rem 1rem !important;
+    }
+    .audio audio {
+        width: 35.0rem !important;
+        margin: 0 0.45rem !important;
+        height: 2rem !important;
+    }
+    .mt-3 {
+        margin-top: 0.3rem!important;
+    }
+    .pay-box h6,
+    .pay-box p{
+        margin-bottom: 0 !important;
+    }
+    .btn-sm {
+        padding: .1rem .15rem !important;
+        font-size: .75rem !important;
+        border-radius: .2rem !important;
+    }
+</style>

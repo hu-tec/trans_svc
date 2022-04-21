@@ -1,0 +1,106 @@
+<!-- 모바일 메뉴 -->
+<div class="b-modal"></div>
+<div class="d_panel left">
+
+    <style>
+        /* on/off처리를 위해서 */
+        .JS_multiBtn,
+        .categorySub.m02,
+        .categorySub.m04,
+        .categorySub.comm,
+        .categorySub.etc { width:100%; }
+    </style>
+
+    <div class="scroll_box">
+        <!-- 로그인 -->
+        <div class="member_adm">
+            <!-- 상단문구 -->
+            <ul class="xans-element- xans-layout xans-layout-statelogon intro ">
+                <p>WELCOME BACK</p>
+                다시 찾아주셔서 감사합니다.
+            </ul>
+            <!-- 버튼 -->
+            <ul class="xans-element- xans-layout xans-layout-statelogon member_btn ">
+                <a href="/exec/front/Member/logout/" class="-btn -lg -black">로그아웃</a>
+                <a href="/member/modify.html" class="-btn -lg -white">정보수정</a>
+            </ul>
+        </div><!-- //로그인 -->
+
+        <h2><i class="xi-ellipsis-v"></i>카테고리 전체보기</h2>
+        <aside id="aside" class="xans-element- xans-layout xans-layout-slidepackage ">
+            <div id="slideCateList">
+                <!-- 추가메뉴1.. -->
+                <ul class="categorySub m01">
+                    <li class="arrow" id="submenu_m">
+                        <a href="#none" class="cate_m" href="#none">회사소개</a>회사소개
+                        <ul class="company_menu_m">
+                            <li><a href="?svc=cpy_intro&cty=0">링크</a>회사소개</li>
+                            <li><a href="?svc=cpy_metatrans_intro&cty=0">링크</a>메타트랜스소개</li>
+                            <li><a href="?svc=cpy_service_intro&cty=0">링크</a>서비스소개</li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- 상품분류 -->
+                <ul class="xans-element- xans-layout xans-layout-category categoryList">
+                    <li id="cate43" class="noChild">
+                        <a href="?svc=trans_doc&cty=0" class="cate_m">문서</a>
+                        <a href="?svc=trans_doc&cty=0" class="view">바로가기</a>
+                    </li>
+                    <li id="cate45" class="noChild">
+                        <a href="?svc=trans_stt&cty=0" class="cate_m">STT</a>
+                        <a href="?svc=trans_stt&cty=0" class="view">바로가기</a>
+                    </li>
+                    <li id="cate50" class="noChild">
+                        <a href="?svc=trans_tts&cty=0" class="cate_m">TTS</a>
+                        <a href="?svc=trans_tts&cty=0" class="view">바로가기</a>
+                    </li>
+                    <li id="cate46" class="noChild">
+                        <a href="?svc=trans_video&cty=0" class="cate_m">영상</a>
+                        <a href="?svc=trans_video&cty=0" class="view">바로가기</a>
+                    </li>
+                    <li id="cate47" class="noChild">
+                        <a href="?svc=trans_youtube&cty=0" class="cate_m">유튜브</a>
+                        <a href="?svc=trans_youtube&cty=0" class="view">바로가기</a>
+                    </li>
+                    <li id="cate48" class="noChild">
+                        <a href="#none" class="cate_m">WEB번역</a>
+                        <a href="#none" class="view">바로가기</a>
+                    </li>
+                    <li id="cate51" class="noChild">
+                        <a href="?svc=trans_s2s&cty=0" class="cate_m">동시통역</a>
+                        <a href="?svc=trans_s2s&cty=0" class="view">바로가기</a>
+                    </li>
+                </ul>
+                <!-- 커뮤니티 -->
+                <ul class="categorySub comm">
+                    <li class="arrow">
+                        <a href="/board/index.html">링크</a>커뮤니티
+                        <ul class="xans-element- xans-layout xans-layout-boardinfo" style="display: none;">
+                            <li class="xans-record-"><a href="#none">링크</a>공지사항 </li>
+                            <li class="xans-record-"><a href="#none">링크</a>상품 사용후기 </li>
+                            <li class="xans-record-"><a href="#none">링크</a>상품 Q&amp;A </li>
+                            <li class="xans-record-"><a href="#none">링크</a>번역가 지원신청 </li>
+                            <li class="xans-record-"><a href="#none">링크</a>갤러리 </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+    <!-- 닫기버튼 -->
+    <div class="d_toggle p-close d_on"><i class="xi-close"></i></div>
+
+    <script type="text/javascript">
+    /* 모바일 메뉴 */
+    $(document).ready(function(){
+        $(".cp792.btn").click(function(){
+            $(".b-modal").toggleClass("on");
+            $(".d_panel").toggleClass("on");
+        });
+        $(".xi-close").click(function(){
+            $(".b-modal").removeClass("on");
+            $(".d_panel").removeClass("on");
+        });
+    });
+    </script>
+</div>

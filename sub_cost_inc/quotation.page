@@ -1,0 +1,98 @@
+<div class="wrap payment" id="QuotationSection" style="display:none;"><!-- block -->
+    <div class="type" style="display:block;">
+        <div class="trans-btn" style="display:flex">
+            <h6 style="width: 210px;">서비스 유형 선택</h6>
+            <div class="hr"></div>
+        </div>
+        <!---------------disable -------------->
+        <div id="QuotationLock" class="disable" style="display:none;"></div>
+        <!---------------disable -------------->
+        <div class="type-box" style="display:block;">
+            <ul class="flex jf-cs" id="BTN_Type">
+                <li class="column box" id="BTNType_Basic" style="display:none !important;">
+                    <div class="row jc-sb">
+                        <h5>Basic</h5>
+                        <img class="iconQuestion hoverPopup" src="/img/question.png" alt="">
+                    </div>
+                    <div class="hr"></div>
+                    <p id="Text_Basic">AI TTS</p>
+                    <div class="more-popup showPopup">
+                        <p>텍스트를 음성파일로 변경하는 서비스입니다.</p>
+                    </div>
+                </li>
+                <li class="column box" id="BTNType_STandard" style="display:block;">
+                    <div class="row jc-sb">
+                        <h5>Standard</h5>
+                        <img class="iconQuestion hoverPopup" src="/img/question.png" alt="">
+                    </div>
+                    <div class="hr"></div>
+                    <p id="Text_Standard">AI번역</p>
+                    <div id="showPopup" class="more-popup showPopup" style="display:block;">
+                        <p>인공지능 번역으로 으로 실시간 번역물을 받을 수 있으며 기존 번역보다 최대 50%비용절감을 할 수 있습니다.</p>
+                    </div>
+                </li>
+                <li class="column box" id="BTNType_Deluxe" style="display:block;">
+                    <div class="row jc-sb">
+                        <h5>Deluxe</h5>
+                        <img class="iconQuestion hoverPopup" src="/img/question.png" alt="">
+                    </div>
+                    <div class="hr"></div>
+                    <p id="Text_Deluxe">AI 번역 <img width="14px" height="14px" src="/img/plus.png" alt=""> 휴먼 감수</p>
+                    <div id="showPopup" class="more-popup showPopup">
+                        <p>인공지능 번역 결과물을 휴먼감수로 높은 정확도와, 합리적인 비용으로 만족도 높은 결과물을 완성합니다.
+                        </p>
+                    </div>
+                </li>
+                <li class="column box" id="BTNType_Premium" style="display:flex !important;">
+                    <div class="row jc-sb">
+                        <h5>Premium</h5>
+                        <img class="iconQuestion hoverPopup" src="/img/question.png" alt="">
+                    </div>
+                    <div class="hr"></div>
+                    <p id="Text_Premium">전문가 휴먼번역</p>
+                    <div id="showPopup" class="more-popup showPopup">
+                        <p>타 번역사나 번역회사에서 제공하는 동일한 서비스로 시간과 비용이 오래 걸립니다.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="" id="AddSelect_Section" style="display:block;">
+        <div class="trans-btn" style="display:flex">
+            <h6>추가선택</h6>
+            <div class="hr"></div>
+        </div>
+        <div class="quality-box cardb-content" style="padding:0;">
+            <ul class="column" id="BTN_AddSelect">
+                <li class="box" style="display:flex" id="BTN_File_Layout">
+                    <div class="quality-box-header">
+                        <h6>파일형식 유지</h6>
+                    </div>
+                    <div class="quality-box-text">
+                        <p>원본 문서 스타일과 동일하게 문서 편집 파일형식유지 (장당 3,000원)</p>
+                    </div>
+                </li>
+                <li class="box" style="display:flex" id="BTN_Quality_Premium">
+                    <div class="quality-box-header">
+                        <h6>프리미엄</h6>
+                    </div>
+                    <div class="quality-box-text">
+                        <p>전문 지식을 보유한 전문가 감수 (30% 추가)</p>
+                        <select id="Select_Premium">
+                            <option value="-">전문 분야 선택</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="box" style="display:flex" id="BTN_Urgent">
+                    <div class="quality-box-header">
+                        <h6>긴급번역</h6>
+                    </div>
+                    <div class="quality-box-text">
+                        <p>긴급으로 번역을 요청하실 경우 선택 (30% 추가)</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

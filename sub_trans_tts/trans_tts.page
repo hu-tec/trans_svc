@@ -1,0 +1,77 @@
+<div class="loading">
+    <div class="d-flex justify-content-center">
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+</div>
+<div class="bg-gray">
+    <div class="wrap">
+        <?include "step.page";?>
+        <section>            
+            <div class="target-box">
+                <div class="" id='SrcLangGrp'>
+                    <div class="lang-trans">
+                        <select class="btn-a" id="SrcLang">
+                            <!-- <option class="div2" value="-">원문 언어</option> -->
+                        </select>
+                        <img id="Lang_Change" src="/img/arrow.png" title="언어 바꾸기" alt="" style="transform:rotate(-90deg); width: 13px;">
+                        <select class="btn-a" id="TgtLang">
+                            <option class="div2" value="-">번역 안 함</option>
+                        </select>
+                        <button class="btn-s btn-white popupFileBox hoverPopup">자세히</butto>
+                        <div class="showPopupFileBox showPopup">
+                            <p>1. 텍스트를 음성파일로 변환됩니다.<br>
+                                2. 195개국에 109개 언어로 변환 가능합니다. <br>
+                                3. 음성파일에서 목소리 선택이 가능합니다. <br>
+                                4. 24시간 시간 장소 제약없는 AI 아나운서 서비스를 활용하세요. <br>
+                                사용처 : 제품소개, 회사소개, 안내방송, 설명회
+                            </p>
+                        </div>
+                    </div>
+                    <div class="result-box">
+                        <textarea id="SrcTextArea" placeholder="음성파일로 변환할 내용을 입력해주세요."></textarea>
+                    </div>
+                    <div class="box-bottom">
+                        <div id="TextClear" style="cursor:pointer" title="글자 지우기">Clear</div>
+                        <p id="text_cnt">0/5000</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+<?include "sub_cost_inc/quotation.page";?>
+
+<div class="wrap" id="DIV_TTSList" style="display:none">
+    <div class="trans-btn"><!-- flex -->
+        <h6>세부내용</h6>
+        <div class="hr"></div>
+    </div>
+    <table id="txttsTransList" class="table-hover" style="width:100% !important;font-size:12px;"><!-- table -->
+        <thead>
+            <tr>
+                <th class="text-center">Seq</th>
+                <th class="text-center">PJTName</th>
+                <th class="text-center">언어</th>
+                <th class="text-center">대상언어</th>
+                <th class="text-center">글자수</th>
+                <th class="text-center">비용</th>
+                <th class="text-center">진행상태</th>
+                <th class="text-center">원오디오</th>
+                <th class="text-center">번오디오</th>
+                <th class="text-center">Type</th>
+                <th class="text-center">품질</th>
+                <th class="text-center">긴급</th>
+                <th class="text-center">Time</th>
+                <th class="text-center">Expert</th>
+                <th class="text-center">FileChk1</th>
+                <th class="text-center">FileChk2</th>
+                <th class="text-center">진행선택</th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+<?include "sub_cost_inc/purchase.page";?>

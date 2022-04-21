@@ -1,0 +1,29 @@
+<!------------------ Header Begin ------------------------>
+<div class="wrap">
+    <nav class="nav-bar">
+        <img src="/img/logo.png" alt="">
+        <ul id="NavBtn">
+            <li id="LIPoint" class="point">Point -</li>
+            <li id="user_mypage_point" style="cursor:pointer">충전</li>
+            <li id="my_expert" style="display:none;cursor:pointer">전문가 전용</li>
+            <li id="my_manage" style="display:none;cursor:pointer">관리자 전용</li>
+            <li id="user_mypage_document" style="cursor:pointer">마이페이지</li>
+            <li id="LILogout" style="display:none"><button id="logout" class="btn btn-primary">로그아웃</button></li>
+            <li id="LILogin"><button id="login" class="btn btn-primary">로그인</button></li>
+            <li id="LIJoin"><button id="join" class="btn btn-primary">회원가입</button></li>
+        </ul>
+    </nav>
+    <div class="select-btn">
+        <div class="btn" id="MainBtn">
+            <button type="button" id="trans_doc" class="btn btn-outline-secondary">문서</button>
+            <button type="button" id="trans_tts" class="btn btn-outline-secondary">TTS</button>
+            <!-- button type="button" id="trans_text" class="btn btn-outline-secondary">텍스트</button -->
+            <button type="button" id="trans_stt" class="btn btn-outline-secondary">STT</button>
+            <button type="button" id="trans_video" class="btn btn-outline-secondary">영상</button>
+            <button type="button" id="trans_s2s" class="btn btn-outline-secondary">동시통역</button>
+            <button type="button" id="trans_youtube" class="btn btn-outline-secondary">유튜브</button>
+            <button type="button" id="trans_web" class="btn btn-outline-secondary" disabled>Web번역</button>
+        </div>
+    </div>
+</div>
+<!------------------ Header End ------------------------>

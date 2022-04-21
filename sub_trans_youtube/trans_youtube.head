@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="/common/css/bootstrap.min.css">
+<link rel="stylesheet" href="/common/css/jquery.dataTables.min.css">
+
+<script type="text/javascript" src="/common/js/bootstrap.bundle.min.js"></script>  
+<script type="text/javascript" src="/common/js/jquery-3.5.1.js"></script>
+<script type="text/javascript" src="/common/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="/common/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="/inc/inc_js.js?v=<?echo time()?>"></script>
+<script type="text/javascript" src="https://npg.settlebank.co.kr/resources/js/v1/SettlePG.js"></script> 
+<script type="text/javascript" src="/processing/pg/pay_rstResult.js"></script>
+
+<link rel="stylesheet" href="/old_css/styles.css?v=<?echo time()?>">
+<link rel="stylesheet" href="/old_css/style2.css?v=<?echo time()?>">
+<link rel="stylesheet" href="/old_css/vshop.css?v=<?echo time()?>">
+<link rel="stylesheet" href="/old_css/custom.css?v=<?echo time()?>">
+<link rel="stylesheet" href="/old_css/bulma.bootstrap.css?v=<?echo time()?>">
+<link rel="stylesheet" href="/css/translate.css?v=<?echo time()?>">
+<style>
+    html, body{
+        font-family: "Nanum Gothic" !important;
+        font-size: 0.9rem !important;
+    }
+    section {
+        padding: 0;
+    }
+    .btn-sm {
+        padding: .1rem .15rem !important;
+        font-size: .75rem !important;;
+        border-radius: .2rem !important;
+    }
+    table.dataTable {
+        border-top: 1px solid #EAEDED !important;
+        border-bottom: 1px solid #EAEDED !important;
+    }
+    .pay-box h6,
+    .pay-box p{
+        margin-bottom: 0 !important;;
+    }
+</style>

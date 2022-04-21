@@ -1,0 +1,217 @@
+<div class="page-wraper">
+    <div class="container">
+        <nav id="CPY_Sub_Link" class="nav nav-pills nav-fill pb-5 ">
+            <a id="cpy_intro" href="javascript:void(0);" class="col-sm-4 nav-item nav-link active">회사소개</a>
+            <a id="cpy_metatrans_intro" href="javascript:void(0);" class="col-sm-4 nav-item nav-link">메타 트랜스 소개</a>
+            <a id="cpy_service_intro" href="javascript:void(0);" class="col-sm-4 nav-item nav-link">서비스소개</a>
+        </nav>
+    </div>
+    <div class="page-wrap">
+        <div class="wrap container">
+            <div class="intro">
+                <div id="target0" class="animated fadeInDown row pl-3 pr-3">
+                    <div class="h_img col-md-3">
+                        <img src="/intro_img/profile_1.png">
+                        <div class="detail_txt_img">
+                            <h5 class="text-dark pt-3">Park Mi-Jin</h5>
+                            <p class="" style="font-size:13px;line-height:18px">
+                                (現) (주)휴택씨 - 메타 트랜스 대표이사<br>
+                                (現) ICS 국제학교 이사장<br>
+                                (現) (주)타임즈 미디어 대표이사<br>
+                                (現) (사)국제통번역사절단 협회 사무총장<br>
+                                (現) (사)한국 번역 학회 사외이사 <br>
+                                (現) 한국 번역 연구원 사무총장<br>
+                                (前) UN 산하 UN IAEWP 교육위원
+                            </p>
+                        </div>
+                    </div>
+                    <div class="text-left col-md-9 text-dark">
+                        <h3 class="text-left">인사말</h3>
+                        <p style="font-size:1rem;line-height:1.8em">(주)메타 트랜스는 인공지능기반의 AI통번역서비스를 제공하는 IT 기업입니다. <br>
+                            1997년 부터 시작해온 언어사업의 경험을 바탕으로 AI번역 비서를 통해 24시간 어디서든 활용이 가능한 시스템을 도입하였습니다. <br><br>
+                            
+                            2017년 전세계최초 인공지능 VS 인간 번역대결을 통해 미래 통역과 번역시장의 방향성을 제시하였습니다. <br>
+                            또한 기존 통역.번역, 시스템에 인공지능의 결합을 통해 AI인공번역시스템과 전문 번역에디터들의 결합을 통해 완성된 미래형<br>일자리 창출에 앞장서고 있습니다. <br>
+                            <br>
+                            2018년부터 인공지능 번역시스템과 전문번역사의 결합이 가능한 번역시스템을 개발하며 미래형 일자리, 미래 교육, <br>미래 인재양성을 위해 앞장서고 있습니다. <br>
+                            2021년부터 과학기술정보 통신부 인정 AI 번역 에디터와 기술자 자격증을 승인받아 <br>앞으로의 인공지능번역사를 통해 한층 업그레드 된 글러벌 비지니스 파트너가 되도록 하겠습니다. <br>
+                            
+                            <br>25년 경험을 통해 메타 트랜스 인공지능 언어 비서 서비스를 통해 글러벌 기업으로 발돋움하고자하는 업체들을 지원하며 국내 관공서는 물론 미국, 캐나다, 유럽까지 진출하여 글러벌 회사로 발돋음할것입니다. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <h4 class="h_title pt-5 pb-4">임원진 소개</h4>
+                <div class="h_txt">
+                    <div  class=" row" >
+                        <div class="col-md-4">
+                            <div class="row">
+                            <div class="col-5"><img src="/intro_img/pri_1.png" alt=""></div> 
+                                <div class="col-7 detail_txt_img">
+                                    <h5>Lee Jeong-Woo</h5>
+                                    (現) KNN방송 감사<br>
+                                    (現) 하나금융그룹 고문<br>
+                                    (前) 코리아헤럴드 대표이사 발행인<br>
+                                    (前) 내외경제신문 대표이사 발행인<br>
+                                    (前) 키즈헤럴드넷 발행인 회장<br>
+                                    (前) 현대투자신탁 대표이사<br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="row">
+                            <div class="col-5"><img src="/intro_img/pri_3.png" alt=""></div> 
+                                <div class="col-7 detail_txt_img">
+                                    <h5>Yoon Tae-Hee</h5>
+                                    (現) Korea Economic Intelligence<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New York Wall St,회장<br>
+                                    (現) (세계은행)국제 금융공사 수석고문<br>
+                                    (前) 국제방송교류재단 이사장<br>
+                                    (前) 서울외국어대학원대학교 총장<br>
+                                    (前) 국제영어박람회 회장<br>
+                                    (前) 주미 한국정부 장학생 선발위원장
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="row">
+                            <div class="col-5"><img src="/intro_img/pri_2.png" alt=""></div> 
+                                <div class="col-7 detail_txt_img">
+                                    <h5>Kim Dong-Ik</h5>
+                                    (現) ICS 이사장<br>
+                                    (現) 성균관대학교<br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;언론정보대학원 겸임교수<br>
+                                    (前) 정무부 장관<br>
+                                    (前) 중앙일보 사장<br>
+                                    (前) 조선일보 편집국장<br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="archiveImgCover">
+        <div class="container pt-5 mt-5 archive">
+            <h5 class="text-center mb-5" style="color: #fff !important;">메타 트랜스 특징</h5>
+            <div class="row">
+                <div class="column">
+                    <p>1</p>
+                    <div>
+                        <img src="/intro_img/feature_1.png" alt="">
+                    </div>
+                    <h6>글로벌 플랫폼</h6>
+                    <p>글로벌 인프라 구축</p>
+                </div>
+                <div class="column">
+                    <p>2</p>
+                    <div>
+                        <img src="/intro_img/feature_2.png" alt="">
+                    </div>
+                    <h6>집단지성</h6>
+                    <p>고부가가치 사업</p>
+                </div>
+                <div class="column">
+                    <p>3</p>
+                    <div>
+                        <img src="/intro_img/feature_3.png" alt="">
+                    </div>
+                    <h6>블록체인</h6>
+                    <p>지적재산권 보장</p>
+                </div>
+                <div class="column">
+                    <p>4</p>
+                    <div>
+                        <img src="/intro_img/feature_4.png" alt="">
+                    </div>
+                    <h6>AI 활용</h6>
+                    <p>미래형 일자리</p>
+                </div>
+                <div class="column">
+                    <p>5</p>
+                    <div>
+                        <img src="/intro_img/feature_5.png" alt="">
+                    </div>
+                    <h6>인력 양성</h6>
+                    <p>4차 산업 준비</p>
+                </div>
+                <div class="column">
+                    <p>6</p>
+                    <div>
+                        <img src="/intro_img/feature_6.png" alt="">
+                    </div>
+                    <h6>신규 일자리</h6>
+                    <p>미래형 일자리</p>
+                </div>
+                <div class="column">
+                    <p>7</p>
+                    <div>
+                        <img src="/intro_img/feature_7.png" alt="">
+                    </div>
+                    <h6>AI 기술 접목</h6>
+                    <p>챗봇과 <br>음성인식기술 접목</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="history container">
+        <h2>회사연혁</h2>
+        <div class="copHis row">
+            <div class="col-sm-6">
+                <p><span>1997</span>&nbsp;&nbsp;교육기업 설립</p>
+                <p><span>1999</span>&nbsp;&nbsp;국제 통번역 사절단 설립</p>
+                <p><span>2004</span>&nbsp;&nbsp;인공지능 교육센터 설립</p>
+                <p><span>2005</span>&nbsp;&nbsp;교사 및 인재양성교육</p>
+                <p><span>2009</span>&nbsp;&nbsp;중앙 통번역</p>
+            </div>
+            <div class="col-sm-6">
+                <p><span>2009</span>&nbsp;&nbsp;국제 통번역 협회 설립</p>
+                <p><span>2013</span>&nbsp;&nbsp;법무부 통역 번역 공증자격증 승인</p>
+                <p><span>2017</span>&nbsp;&nbsp;교육생 누적 졸업생 12,000명 돌파</p>
+                <p><span>2018</span>&nbsp;&nbsp;AI인공지능 교육기업 휴텍씨 설립</p>
+                <p><span>2020</span>&nbsp;&nbsp;인공지능 통역번역 서비스 개발</p>
+                <p><span>2020</span>&nbsp;&nbsp;과학기술정보 통신부 인공지능 언어전문가 자격증승인</p>
+            </div>
+        </div>
+        <h2>행사연혁</h2>
+        <p class="col-sm-12"><span>2019</span>&nbsp;&nbsp;미국, 캐나다, 몰타 해외교육 진행 추가</p>
+        <div class="row mt-5">
+            <div class="column col-sm-4">
+                <h6>2002</h6>
+                <h5>모바일을 통한 UBT를 통한 통역 번역 시험</h5>
+                <img src="/intro_img/img_test.png" alt="">
+            </div>
+            <div class="column col-sm-4">
+                <h6>2004</h6>
+                <h5>인제 양성 교육센터</h5>
+                <p>12,000 여 명의 교사 교육 졸업생 배출<br>전국 100여 개의 교육 센터 운영 <br>국제학교 운영</p>
+            </div>
+            <div class="column col-sm-4">
+                <h6>2017</h6>
+                <h5>인간 vs 인공지능 번역 대결 보도</h5>
+                <img src="/intro_img/img_news.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container pt-5 mt-5 archive">
+        <img src="/intro_img/coper.PNG" width="100%" height="auto" alt="">
+    </div>
+    <div class="edu-logo mt-5 pt-5 pb-5">
+        <div class=" container">
+            <p style="clear: both; color: #fff !important; text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);">* 타임스미디어 제휴센터</p>
+            <div class="location_wrap">
+                <div class="at-container">
+                    <h2 class="h_title" style="color: #fff !important; margin-bottom: 20px !important; text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);"">오시는길</h2>
+                    <p  style="color: #fff !important;">서울특별시 서초구 서초동 1327-13 강남지웰타워 6층</p>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d665.4720330836362!2d127.01983366656985!3d37.495267304704285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca142cbe4d303%3A0xe19164f0c0222998!2z7ISc7LSI7KeA7Juw7YOA7JuM!5e0!3m2!1sko!2skr!4v1606096295990!5m2!1sko!2skr"
+                    width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</div>

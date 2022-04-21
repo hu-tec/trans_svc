@@ -1,0 +1,25 @@
+<div class="analysisStep">
+    <div id="ProgressStep" class="flex circleOnOff-wrap">
+        <div class="column">
+            <div id="PS_1" class="circleOnOff active"></div>
+            <p>언어선택</p>
+        </div>
+        <div class="column">
+            <div id="PS_2" class="circleOnOff"></div>
+            <p id="PS_FileText">업로드</p>
+        </div>
+        <div class="column">
+            <div id="PS_3" class="circleOnOff"></div>
+            <p>서비스 선택</p>
+        </div>
+        <!-- <div class="column">
+            <div id="PS_4" class="circleOnOff"></div>
+            <p>추가선택</p>
+        </div> -->
+        <div class="column">
+            <div id="PS_4" class="circleOnOff"></div>
+            <p>결제</p>
+        </div>
+    </div>
+    <div class="analysisStep-hr"></div>
+</div>

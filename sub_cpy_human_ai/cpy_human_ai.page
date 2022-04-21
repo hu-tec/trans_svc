@@ -1,0 +1,77 @@
+<div id="titleArea">
+    <h2>인공지능 vs 인간 번역 대결</h2>
+    <span><a href="#none" onclick="history.go(-1);return false;">뒤로가기</a></span>
+</div>
+
+<div id="human_ai">
+    <div class="human_ai_intro">
+        <div class="intro_bg">
+            <h4>인간 대결 vs 인공지능</h4>
+            <p>
+                AI비즈니스 산업 속에서 인간과의 공존을 추구하는 <br />
+                미래형 일자리 선도를 위해 인공지능과 인간번역대결을 통해 <br />
+                휴먼과 인공지능의 결합이라는 방향성을 제시.
+            </p>
+        </div>
+        <div class="youtube">
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/vtI_9_jwS-g" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="human_ai_cont">
+        <div class="cont01">
+            <h3>뉴스 보도 자료</h3>
+            <ul class="row">
+                <li class="col-md-6 col-xs-12">
+                    <img src="/img/01_company/human_ai_02.jpg" alt="" />
+                </li>
+                <li class="col-md-6 col-xs-12">
+                    <img src="/img/01_company/human_ai_03.jpg" alt="" />
+                </li>
+                <li class="col-md-6 col-xs-12">
+                    <img src="/img/01_company/human_ai_04.jpg" alt="" />
+                </li>
+                <li class="col-md-6 col-xs-12">
+                    <img src="/img/01_company/human_ai_05.jpg" alt="" />
+                </li>
+                <li class="col-md-6 col-xs-12">
+                    <img src="/img/01_company/human_ai_06.jpg" alt="" />
+                </li>
+                <li class="col-md-6 col-xs-12">
+                    <img src="/img/01_company/human_ai_07.jpg" alt="" />
+                </li>
+            </ul>
+        </div>
+
+        <div class="cont02">
+            <h3>대결 현장</h3>
+            <ul class="row">
+                <li class="col-md-6 col-xs-12">
+                    <h4>인간 번역가</h4>
+                    <p><img src="/img/01_company/human_ai_08.jpg" alt="" /></p>
+                    <p><img src="/img/01_company/human_ai_09.jpg" alt="" /></p>
+                </li>
+                <li class="col-md-6 col-xs-12">
+                    <h4>기계 번역</h4>
+                    <p><img src="/img/01_company/human_ai_10.jpg" alt="" /></p>
+                    <p><img src="/img/01_company/human_ai_11.jpg" alt="" /></p>
+                </li>
+            </ul>
+            <p><img src="/img/01_company/human_ai_12.jpg" alt="" /></p>
+            <p>
+                <img src="/img/01_company/human_ai_13.jpg" alt="" />
+                <span>주최 : 국제 통역번역 협회</span>
+            </p>
+        </div>
+    </div>
+
+    <div class="human_ai_outro">
+        <div class="youyube">
+            <ul class="row">
+                <li class="col-md-6 col-xs-12"><iframe width="640" height="360" src="https://www.youtube.com/embed/rbRxOQDhyV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+                <li class="col-md-6 col-xs-12"><iframe width="640" height="360" src="https://www.youtube.com/embed/HckBeUXoqts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+            </ul>
+        </div>
+    </div>
+</div>

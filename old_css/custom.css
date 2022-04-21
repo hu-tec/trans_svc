@@ -1,0 +1,227 @@
+
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.scd {
+  font-family: "SCD-4", "P-FONT";
+}
+
+.navbar {
+  font-family: "MENU-FONT";
+  background-color: initial !important;
+}
+.nav-member {
+  font-family: "MENU-FONT";
+}
+
+.is-1b {
+  font-size: 2.5rem !important;
+}
+
+.has-text-link-dark2 {
+  color: #632a75 !important;
+}
+
+.button.is-dark-link {
+  background-color: #632a75;
+  border-color: transparent;
+  color: #fff;
+}
+
+.rline {
+  border-right: 1px solid #cccccc !important;
+  margin-right: 0 !important;
+}
+
+.is-horizontal-center {
+  justify-content: center;
+}
+
+.table thead th {
+  background: #f4f4f4;
+  border-top: 2px solid #632a75 !important;
+  border-bottom: 1px solid #d4d4d4 !important;
+  font-size: 15px;
+}
+
+.table th {
+  background: #f4f4f4;
+}
+
+.table thead td {
+  background: #f9f9f9;
+  border-top: 2px solid #632a75 !important;
+  border-bottom: 1px solid #d4d4d4 !important;
+  font-size: 15px;
+}
+
+.table thead td,
+.table thead th {
+  border-width: 0;
+}
+
+.table th {
+  border: 1px solid #dbdbdb;
+  border-width: 0 0 1px;
+  padding: 0.8em 0.75em;
+}
+
+.a-link {
+  text-decoration: underline;
+  color: #632a75;
+  font-weight: bold;
+}
+
+.sub-text {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 620px) {
+  .mobilehide {
+    display: none;
+  }
+
+  .w300 {
+    max-width: 100%;
+  }
+
+  .sub-text {
+    font-size: 15px;
+  }
+}
+
+/*pricing table*/
+
+@media screen and (min-width: 769px) {
+  .pricing-table.is-comparative {
+    margin: 0.5rem;
+  }
+
+  .h100 {
+    height: 120px;
+  }
+
+  .w300 {
+    max-width: 280px;
+  }
+}
+
+.pricing-table {
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.plan-item {
+  padding: 10px 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.pricing-table.is-comparative .pricing-plan:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.pricing-table.is-comparative .pricing-plan:not(:last-child) {
+  border-right: none;
+}
+
+.pricing-table.is-comparative .pricing-plan {
+  border-radius: initial;
+  margin: 0;
+}
+
+.pricing-table .pricing-plan {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  background-color: #fff;
+  border: 0.1rem solid #eeeeee;
+  border-radius: 4px;
+  list-style-type: none;
+  transition: 0.25s;
+  margin: 0.5em;
+}
+
+.pricing-table .pricing-plan .plan-header {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background-color: #fff;
+  border-bottom: 1px solid #eeeeee;
+  color: #4a4a4a;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 0.75em;
+  align-content: center;
+  text-align: center;
+}
+
+.pricing-table .pricing-plan .plan-footer {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding: 0.75em;
+  align-content: center;
+  text-align: center;
+  margin-top: auto;
+}
+
+
+.alert-popup {
+  position: absolute;
+  z-index: 100;
+  padding: 10px;
+  left: 40%;
+}
+.sm-icon {
+  /* background-color: #3298dc !important;*/
+  border-color: transparent !important;
+  color: #fff !important;
+  padding: 10px !important;
+  margin: 0px 2px !important;
+  height: 26px !important;
+}
+
+.va-middle td {
+  vertical-align: middle !important;
+}
+.nowarp {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.menu-label {
+  font-size: 1em !important;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 7px !important;
+  margin-bottom: 0.5em !important;
+}
+.product .cardb .cardb-header {
+  border-top: 1px solid #eeeeee !important;
+  border-bottom: 0px !important;
+  box-shadow: none !important;
+}
+.pbox {
+  border: 1px solid #eeeeee;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.pbox.active {
+  border: 3px solid #4859f5;
+}
+.pbox.first:not(.active) {
+  border-bottom: 0px !important;
+}
+.pbox.second:not(.active) {
+  border-bottom: 0px !important;
+}
+
+.form-control::placeholder {
+  color: #cccccc;
+}
+.form-control {
+  color: #333333;
+}

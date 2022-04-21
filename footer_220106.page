@@ -1,0 +1,98 @@
+<footer class="site-footer style-3" id="footer" style="background:#1d1444; display: block; height: auto; border-top: 0px;margin-top: 10px;">    
+<div class="footer-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-3 col-lg-12 col-md-4 col-sm-6 wow fadeIn" data-wow-duration="1s"
+        data-wow-delay="0.2s">
+        <div class="widget widget_about">
+          <div class="footer-logo">
+            <a href="/"><img src="/intro_img/Mete-Trans-white.png"
+                style="max-width:200px;" alt="" /></a>
+          </div>
+          <p><font color="white">번역, 전문가 감수까지 메타서비스의 <br>원스톱서비스를 만나보세요.</font></p>
+          <p><font color="white">(주)휴텍씨(메타 트랜스) | 대표 : 박미진<br>사업자등록번호 : 368-81-01113</font></p>
+          <div class="dlab-social-icon">
+            <ul>
+              <li><a class="fa fa-facebook" href="javascript:void(0);"></a></li>
+              <li><a class="fa fa-instagram" href="javascript:void(0);"></a></li>
+              <li><a class="fa fa-twitter" href="javascript:void(0);"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-3 col-md-4  col-sm-6 wow fadeIn" data-wow-duration="1s"
+        data-wow-delay="0.4s">
+        <div class="widget widget_services style-1">
+          <h5 class="footer-title">회사소개</h5>
+          <ul id="CPYLink">
+            <li><a id="cpy_intro" href="javascript:void(0);">회사소개</a></li>
+            <li><a id="cpy_metatrans_intro" href="javascript:void(0);">메타 트랜스 소개</a></li>
+            <li><a id="cpy_service_intro" href="javascript:void(0);">서비스 소개</a></li>
+          </ul>
+        </div> 
+      </div>
+      <div class="col-xl-2 col-lg-3 col-md-4  col-sm-6 wow fadeIn" data-wow-duration="1s"
+        data-wow-delay="0.6s">
+        <div class="widget widget_services style-1">
+          <h5 class="footer-title">메타 트랜스</h5>
+          <ul id="ServiceLink">
+            <li><a id="trans_doc" href="javascript:void(0);">문서 번역</a></li>
+            <li><a id="trans_tts" href="javascript:void(0);">TTS번역</a></li>
+            <li><a id="trans_text" href="javascript:void(0);">텍스트 번역</a></li>
+            <li><a id="cpy_refund" href="javascript:void(0);">가격정책(환불정책)</a></li>
+            <li><a id="cpy_faq" href="javascript:void(0);">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-3 col-md-4  col-sm-6 wow fadeIn" data-wow-duration="1s"
+        data-wow-delay="0.8s">
+        <div class="widget widget_services style-1">
+          <h5 class="footer-title">약관 및 정책</h5>
+          <ul id="UserLink">
+            <li><a id="login" href="javascript:void(0);">로그인</a></li>
+            <li><a id="join" href="javascript:void(0);">회원가입</a></li>
+            <!-- <li><a id="cpy_privacy" href="javascript:void(0);">개인정보취급방침</a></li> -->
+            <li><a id="cpy_terms" href="javascript:void(0);">이용약관</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xl-3 col-lg-3 col-md-4  col-sm-6 wow fadeIn" data-wow-duration="1s"
+        data-wow-delay="1.0s">
+        <div class="widget widget_getintuch">
+          <h5 class="footer-title">고객센터</h5>
+          <ul>
+            <li>
+              <i class="fa fa-phone gradient"></i>
+              <span>010-3605-6896</span>
+            </li>
+            <li>
+              <i class="fa fa-envelope gradient"></i>
+              <span>hutechc01@gmail.com </span>
+            </li>
+            <li>
+              <i class="fa fa-map-marker gradient"></i>
+              <span>본사 : 서울특별시 서초구 서초동 1327- 13 강남 지웰타워 6층 </span>
+            </li>
+            <li>
+              <i class="fa fa-map-marker gradient"></i>
+              <span>
+                지점 : 서울특별시 서초구 서초동 1473-10 한국 산업개뱔연구원 4층</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- footer bottom part -->
+<div class="footer-bottom">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-12 text-center">
+        <span class="copyright-text">Copyright © 2021 <a href="#" target="_blank">HutechC</a>. All
+          rights reserved.</span>
+      </div>
+    </div>
+  </div>
+</div>
+</footer>

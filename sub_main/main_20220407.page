@@ -1,0 +1,321 @@
+<script type="text/javascript">
+$jq(function() {
+	var $owl = $jq('#cp500 .ul');
+	$owl.owlOneItemExt({
+		items:1,					//화면에 보이는 개수
+        margin:0,					//슬라이드 간격
+        stagePadding:0,				//좌우측 보이는 정도
+        smartSpeed:500,				//슬라이드 속도
+        animateIn: 'fadeIn',		//페이드
+        animateOut: 'fadeOut',		//페이드
+        nav:true,					//방향키
+        loop:true,					//루프
+        autoplay:true,				//자동롤링
+        autoplayTimeout:7000,		//자동롤링 시간간격 (1000=1초)
+      	autoplayHoverPause:true,	//마우스오버시 정지
+        rewind: false,  			//끝에서 되돌림
+        center:true,				//중앙정렬
+        autowidth:false,			//자동 넓이 설정
+        autoHeight:true,			//자동 높이 설정
+		init_youtube_api:true, 		//youtube api 기초작업 여부
+        lazyLoad:false
+	});
+    window.owl = $owl;
+});
+</script>
+
+<div id="cp500">
+	<div class="owl-carousel ul">
+        <!-- 1번 배너 -->
+        <li data-text="번역 에디팅 툴">
+            <a href="#none" class="pc" style="background-image:url('/img/00_main/pc_01.jpg');"></a><!-- PC 이미지 -->
+            <a href="#none" class="mo" style="background-image:url('/img/00_main/mo_1.jpg');"></a><!-- 모바일 이미지 -->
+        </li>
+
+        <!-- 2번 배너 -->
+        <li data-text="문서 형식 유지">
+            <a href="#none" class="pc" style="background-image:url('/img/00_main/pc_04.jpg');"></a><!-- PC 이미지 -->
+            <a href="#none" class="mo" style="background-image:url('/img/00_main/mo_3.jpg');"></a><!-- 모바일 이미지 -->
+        </li>
+
+        <!-- 3번 배너 -->
+        <li data-text="AI 동시 통역 서비스">
+            <a href="#none" class="pc" style="background-image:url('/img/00_main/pc_02.jpg');"></a><!-- PC 이미지 -->
+            <a href="#none" class="mo" style="background-image:url('/img/00_main/mo_2.jpg');"></a><!-- 모바일 이미지 -->
+        </li>
+
+        <!-- 4번 배너 -->
+        <li data-text="AI 번역 서비스">
+            <a href="#none" class="pc" style="background-image:url('/img/00_main/pc_03.jpg');"></a><!-- PC 이미지 -->
+            <a href="#none" class="mo" style="background-image:url('/img/00_main/mo_4.jpg');"></a><!-- 모바일 이미지 -->
+        </li>
+	</div>
+</div>
+<div class="divClear"></div>
+
+<div id="cp515">
+    <div class="owl-carousel ul">
+        <li><a href="#none"><img src="/img/00_main/slide_01.jpg" alt=""/></a></li>
+        <li><a href="#none"><img src="/img/00_main/slide_02.jpg" alt=""/></a></li>
+        <li><a href="#none"><img src="/img/00_main/slide_03.jpg" alt=""/></a></li>
+        <li><a href="#none"><img src="/img/00_main/slide_04.jpg" alt=""/></a></li>
+    </div>
+</div>
+
+<script type="text/javascript">
+$jq(function() {
+	var $owl = $jq('#cp515 .ul');
+    $owl.owlTimer({
+        responsive : {
+        	0: { items:1 },
+            575 : { items:2 }
+        },
+        //items:2,					//화면에 보이는 개수
+        margin:2,					//슬라이드 간격
+        stagePadding:0,				//좌우측 보이는 정도
+        smartSpeed:600,				//슬라이드 속도
+        nav:true,					//좌우화살표
+        loop:true,					//루프
+        autoplay:true,				//자동롤링
+        autoplayTimeout:6000,		//자동롤링 시간간격 (1000=1초)
+        autoplayHoverPause:true,	//마우스오버시 정지
+        video:true,					//비디오재생
+        lazyLoad:false,				//레이지로드
+        center:true,				//중앙정렬
+        autowidth:true,				//자동 넓이 설정
+        autoHeight:true,			//자동 높이 설정
+        animateIn:'',				//fadeIn 가능
+        lazyLoad:false
+	});
+    window.owl = $owl;
+});
+</script>
+
+<div id="cp508">
+    <div class="owl-carousel ul">
+        <!-- 1번 배너 -->
+        <li>
+            <a href="#none" class="pc" style="background-image:url('/img/00_main/wide_banner1.jpg');"></a><!-- PC 이미지 -->
+            <a href="#none" class="mo" style="background-image:url('/img/00_main/MOBILE_banner3.jpg');"></a><!-- 모바일 이미지 -->
+        </li>
+    </div>
+</div>
+
+<script type="text/javascript">
+$jq(function() {
+	var $owl = $jq('#cp508 .ul');
+	$owl.owlOneItemExt({
+		items:1,					//화면에 보이는 개수
+        margin:0,					//슬라이드 간격
+        stagePadding:0,				//좌우측 보이는 정도
+        smartSpeed:500,				//슬라이드 속도
+        animateIn: 'fadeIn',
+        animateOut: 'fadeOut',
+        nav:true,					//좌우화살표
+        loop:true,					//루프
+        autoplay:true,				//자동롤링
+        autoplayTimeout:6000,		//자동롤링 시간간격 (1000=1초)
+      	autoplayHoverPause:true,	//마우스오버시 정지
+        rewind: false,  			//끝에서 되돌림
+        center:true,				//중앙정렬
+        autowidth:true,				//자동 넓이 설정
+        autoHeight:true,			//자동 높이 설정
+        lazyLoad:false
+	});
+});
+</script>
+
+<div id="main_process">
+    <h2>메타트랜스 활용</h2>
+    <ul>
+         <li>
+            <div class="title">
+                <h3>STEP 1</h3>
+                <h4>원하는 문서를 업로드하세요</h4>
+            </div>
+            <div class="border-wrap">
+                <div class="disc">
+                    <p>원하는 문서를 업로드 하시고 다운을 받으시면 됩니다.</p>
+                    <ul>
+                        <li>
+                            <div class="box">
+                                <h5>문서</h5>
+                                <div class="icon"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box">
+                                <h5>STT</h5>
+                                <div class="icon"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box">
+                                <h5>TTS</h5>
+                                <div class="icon"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box">
+                                <h5>이미지</h5>
+                                <div class="icon"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box">
+                                <h5>동영상</h5>
+                                <div class="icon"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box">
+                                <h5>웹사이트</h5>
+                                <div class="icon"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+         </li>
+         <li>
+            <div class="title">
+                <h3>STEP 2</h3>
+                <h4>원하는 언어를 찾아 번역을 요청하세요</h4>
+            </div>
+            <div class="border-wrap ex_border">
+                <div class="disc_global">
+                    <h5>109개 언어</h5>
+                    <p>전세계 109개국의 언어를 번역, 원하는 언어를 선택하세요.</p>
+                    <ul>
+                        <li><p>Russian</p></li>
+                        <li><p>Chinese</p></li>
+                        <li><p>Japanese</p></li>
+                        <li><p>Italian</p></li>
+                        <li><p>English</p></li>
+                        <li><p>Portuguese</p></li>
+                        <li><p>French</p></li>
+                        <li><p>German</p></li>
+                        <li><p>Hindi</p></li>
+                    </ul>
+                </div>
+            </div>
+         </li>
+         <li>
+            <div class="title">
+                <h3>STEP 3</h3>
+                <h4>원하는 전문 감수자를 찾아 감수를 요청하세요</h4>
+            </div>
+            <div class="border-wrap">
+                <ul class="disc_job">
+                    <li>
+                        <div class="box">
+                            <h4>변호사</h4>
+                            <p>법률 문서계약서, 특허관련 문서<br /> 기업 약관, 사규 등</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box">
+                            <h4>노무사</h4>
+                            <p>근로 계약서, 취업 비자<br /> 계약서등</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box">
+                            <h4>프로그래머</h4>
+                            <p>인터넷,정보 통신, 소프트웨어<br> 하드웨어, 반도체 ,네트워크등</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box">
+                            <h4>업종별 전문</h4>
+                            <p>경제, 문학, 종교, 심리, 역사<br> 예술분야, 정치,건강 등</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box">
+                            <h4>번역전문가</h4>
+                            <p>광고 카피, 문학소설등의서적<br> 학술 논문 및 연구 자료 등</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box">
+                            <h4>경영컨설팅</h4>
+                            <p>메뉴얼, 제안서, 사업 계획서<br> 브로셔, 협정서 등</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box">
+                            <h4>해외 전문가</h4>
+                            <p>홈페이지 리뉴얼<br> 홈페이지 현지화</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box">
+                            <h4>해외 마케팅</h4>
+                            <p>비즈니스 서신, 회사 소개서 <br>홍보 책자 등</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box">
+                            <h4>영업 전문가</h4>
+                            <p>기업 PT 자료, 영업 제안서 <br>홍보 및 교육 자료등</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+         </li>
+     </ul>
+</div>
+
+<div id="main_compare">
+    <ul>
+        <li>
+            <div class="box">
+                <h3>A사</h3>
+                <ul>
+                    <li class="check">문서 번역 제공</li>
+                    <li class="fail">STT(속기사 텍스트 서비스)</li>
+                    <li class="fail">TTS(아나운서 음성 서비스)</li>
+                    <li class="check">휴먼 감수</li>
+                </ul>
+                <div class="ex_text"><p>사람이 처음부터 끝까지 번역하기 때문에 <br>시간이 오래 걸리고 가격도 비싼 타 사</p></div>
+            </div>
+        </li>
+        <li>
+            <div class="box main_point">
+                <h3>메타트랜스</h3>
+                <ul>
+                    <li class="check_purple">
+                        <h4>문서 번역 제공</h4>
+                        <p>-1000자당 최대 50% <img src="/img/00_main/prize_icon.png" alt="low prize" /></p>
+                    </li>
+                    <li class="check_purple">
+                        <h4>STT(속기사 텍스트 서비스) </h4>
+                        <p>-STT 최대 30% <img src="/img/00_main/prize_icon.png" alt="low prize" /></p>
+                    </li>
+                    <li class="check_purple">
+                        <h4>TTS(아나운서 음성 서비스)</h4>
+                        <p>-TTS 최대 30% <img src="/img/00_main/prize_icon.png" alt="low prize" /></p>
+                    </li>
+                    <li class="check_purple">
+                        <h4>휴먼 감수 </h4>
+                        <p>-휴먼 번역에 비해 메타트랜스 번역은<br /> 최대 65%! <img src="/img/00_main/prize_icon.png" alt="low prize" /></p>
+                    </li>
+                </ul>
+                <div class="ex_text"><p>AI번역으로 가격 부담을 낮추고,<br /> 휴먼 감수로 정확성을 높힌<br />메타 트랜스만의 번역!</p></div>
+            </div>
+        </li>
+        <li>
+            <div class="box">
+                <h3>B사</h3>
+                <ul>
+                    <li class="fail">문서 번역 제공</li>
+                    <li class="check">STT(속기사 텍스트 서비스)</li>
+                    <li class="check">TTS(아나운서 음성 서비스)</li>
+                    <li class="fail">휴먼 감수</li>
+                </ul>
+                <div class="ex_text"><p>STT, TTS 서비스만 가능하고,<br />전문가의 감수가 없는 타 사</p></div>
+            </div>
+        </li>
+    </ul>
+</div>

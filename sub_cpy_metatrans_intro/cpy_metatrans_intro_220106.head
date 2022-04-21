@@ -1,0 +1,7 @@
+    <script type="text/javascript" src="/common/js/jquery-3.5.1.js"></script>
+
+    <link rel="stylesheet" href="/old_css/styles.css?v=<?echo time()?>">
+
+    <link rel="stylesheet" href="/intro_css/style.css?v=<?echo time()?>">
+	<link rel="stylesheet" href="/intro_css/custom.css?v=<?echo time()?>">
+    <link rel="stylesheet" href="/intro_css/company.css?v=<?echo time()?>">

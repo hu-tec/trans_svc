@@ -1,0 +1,233 @@
+<div class="bg-gray">
+<div class="wrap">
+<? include "sub_user/user_mypage_menu.page" ?>
+    <!-- 관리자 nav-bar -->
+    <div class="columns">
+        <div class="person-info i-box p-i">
+            <!-- <div class="p-name">
+                <img src="/old_img/doge.png" width="100px" height="100px" alt="프로필 이미지">
+                <p>홍길동</p>
+            </div> -->
+            <!-- <div class="level-box">
+                <p>판매등급 Bronze</p>
+            </div> -->
+            <div class="p-info p-5">
+                <h6>정보</h6>
+                <ul>
+                    <li class="pl-5"><a href="#" class="my-info">개인정보</a></li>
+                    <li class="pl-5"><a href="#" class="withd">회원탈퇴</a></li>
+                </ul>
+                <hr class="hr">
+                <h6>알림함</h6>
+                <p class="pl-5"><a id="AlertList" href="#" class="alert-btn">알림함</a></p>
+            </div>
+        </div>
+        <!-- 개인정보 -->
+        <div class="info-box i-box my-info-box" style="display: block;">
+            <div class="info-txt">개인정보</div>
+            <div class="p-5">
+                <form>
+                    <div class="form-group">
+                        <label class="col-sm-3">이름</label>
+                        <div id="UserName" class="col-sm-9"></div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3">이메일</label>
+                        <div id="InfoEmail" class="col-sm-7"></div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3">생년월일</label>
+                        <div id="YYMMDD" class="col-sm-9"></div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3">휴대폰</label>
+                        <div id="InfoPhone" class="col-sm-9"></div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-3">전환 입금 계좌</label>
+                        <div id="InfoACCName" class="col-sm-2"></div>
+                        <div id="InfoACCNumber"class="col-sm-6"></div>
+                    </div>
+                    <!-- <hr class="hr">
+                    <p class="mb-6">* 정보 변경 시 카카오 회원정보에는 적용되지 않습니다.</p> -->
+                    <div class="text-center">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#UpdateInfoModal">
+                        수정
+                        </button>
+                    </div>
+                    <!-- 모달 -->
+                    <div class="modal fade" id="UpdateInfoModal" tabindex="-1" aria-labelledby="UpdateInfoModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="UpdateInfoModalLabel">비밀번호 확인</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body row">
+                                    <div class="col-sm-3 text-center" style="margin-top: 10px;">
+                                        비밀번호
+                                    </div>
+                                    <input id="ChkPWD" type="password" class="form-control col-sm-8">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" id="BTN_PWD_Check"class="btn btn-secondary modifi-btn" data-bs-dismiss="modal">확인</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 모달 끝 -->
+                </form>
+            </div>
+        </div>
+        <!-- 개인정보수정 -->
+        <div class="modifi-box info-box i-box" style="display: none;">
+            <div class="info-txt">개인정보수정</div>
+            <div class="p-5">
+                <div class="form-group">
+                    <label class="col-sm-3">이메일</label>
+                    <div class="col-sm-6">
+                        <input id="Email" type="text" maxlength="70" class="form-control" readonly>
+                        <label for="checkbox">
+                            이메일은 변경이 불가능합니다. 불가피한 경우 전화 연락 바랍니다.
+                        </label>
+                        <label for="checkbox">
+                            <input id="Subscribe" type="checkbox" checked="checked">
+                            &nbsp;&nbsp;휴텍씨 이벤트 및 관련 소식 정보를 수신하겠습니다.
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-3">생년월일</label>
+                    <div class="col-sm-6">
+                        <input type="text" id="Birthday" name="birthday" maxlength="10" placeholder="yyyy-mm-dd" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-3">휴대폰</label>
+                    <div class="col-sm-9">
+                        <div class="level">
+                            <div class="level-left">
+                                <div class="level-item">
+                                    <input id="Phone" type="text" maxlength="13" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-3">전환 입금 계좌</label>
+                    <div class="col-sm-3">
+                        <input id="ACC_Name" type="text" placeholder="은행명" class="form-control">
+                    </div>
+                    <div class="col-sm-6">
+                        <input id="ACC_Number" type="text" placeholder="계좌번호" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-3">비밀번호 변경</label>
+                    <div class="col-sm-4">
+                        <input id="NEW_PWD1" type="password" placeholder="비밀번호" class="form-control">
+                        <label for="checkbox">
+                            * 패스워드 변경시에만 입력 *
+                        </label>
+                    </div>
+                    <div class="col-sm-4">
+                        <input id="NEW_PWD2" type="password" placeholder="비밀번호 확인" class="form-control">
+                    </div>
+                </div>
+                <!-- <div class="form-group">
+                    <label class="col-sm-3 ">사진 변경</label>
+                    <label class="photo-label col-sm-3 text-center btn" for="photo-file" style="padding: 10px 20px; margin: 0 15px;">
+                        사진 추가하기
+                    </label>
+                    <input type="file" id="photo-file" style="display: none;">
+                </div> -->
+                <!-- <hr class="hr">
+                <p class="mb-6">* 정보 변경 시 카카오 회원정보에는 적용되지 않습니다.</p> -->
+                <div class="text-center">
+                    <!-- <button id="BTN_Update_Info" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#UpdateOK_Modal"> -->
+                    <button id="BTN_Update_Info" type="button" class="btn btn-primary">
+                        저장
+                    </button>
+                </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="UpdateOK_Modal" tabindex="-1" aria-labelledby="UpdateOK_Modal_Label" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header" >
+                                <h5 class="modal-title" id="UpdateOK_Modal_Label" >저장되었습니다.</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="col-sm-12">
+                                    개인정보로 이동합니다.
+                                </div>
+                            </div>
+                            <div class="modal-footer" style="justify-content: center;">
+                                <button id="UpdateOK_Modal_BTN" type="button" class="btn btn-secondary modifi-save" data-bs-dismiss="modal">확인</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 회원탈퇴 -->
+        <div class="i-box info-box withd-box" style="display: none;">
+            <div class="info-txt">회원탈퇴</div>
+            <div class="p-5" style="border:1px solid #cccccc;">
+                <form name="unregster" id="form3"  method="post" class="form-horizontal" parsley-validate="">
+                    <div class="form-group row">
+                        <label class="col-sm-3 col-form-label">탈퇴사유</label>
+                        <div class="col-sm-9">
+                            <textarea id="Quit_Ment" style="resize: none;" class="textarea" placeholder=" 탈퇴사유를 입력해주세요." v-model="userData.memo"></textarea>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class=" text-center">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#QuitModal">
+                        확인
+                        </button>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="QuitModal" tabindex="-1" aria-labelledby="QuitModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="QuitModalLabel">정말로 탈퇴하시겠습니까?</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body row">
+                                    <div class="col-sm-3 text-center" style="margin-top: 10px;">
+                                        비밀번호
+                                    </div>
+                                    <input id="ChkPWD2" type="password" class="form-control col-sm-8">
+                                </div>
+                                <div class="modal-footer">
+                                    <button id="BTN_Quit" type="button" class="btn btn-primary">예</button>
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">아니오</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- 알림함 -->
+        <div class="i-box info-box alert-box" style="display: none;">
+            <div class="info-txt">알림함</div>
+            <div class="p-5" style="border:1px solid #cccccc;">
+                <table id="MyAlertList" class="table stripe hover row-border order-column" style="width:100%;">
+                <!-- <table class="table is-hoverable is-fullwidth is-bordered"> -->
+                    <thead>
+                        <tr class="text-center">
+                            <th scope="col">Seq</th>
+                            <th scope="col">날짜</th>
+                            <th scope="col">내용</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

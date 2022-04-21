@@ -1,0 +1,30 @@
+    <link rel="stylesheet" href="/common/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/common/css/jquery.dataTables.min.css">
+
+    <script type="text/javascript" src="/common/js/bootstrap.bundle.min.js"></script>  
+    <script type="text/javascript" src="/common/js/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="/common/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="/inc/inc_js.js?v=<?echo time()?>"></script>
+
+    <link rel="icon" type="image/x-icon" href="/old_img/mini_logo.png" />
+    <script src="https://kit.fontawesome.com/49e4bc6b3c.js" crossorigin="anonymous"></script>
+
+    <!-- Custom Stylesheet -->
+    <link href="/old_css/style2.css?v=<?echo time()?>" rel="stylesheet">
+    <link href="/old_css/custom.css?v=<?echo time()?>" rel="stylesheet">
+    <link href="/old_css/bulma.bootstrap.css?v=<?echo time()?>" rel="stylesheet">
+
+    <link rel="stylesheet" href="/old_css/styles.css?v=<?echo time()?>">
+    <link rel="stylesheet" href="/css/translate.css?v=<?echo time()?>">
+    
+    <style>
+        .modal-dialog {
+            max-width: 620px !important;
+        }
+        .btn-sm {
+            padding: .2rem .25rem;
+            font-size: 1.0rem;
+            border-radius: .2rem;
+        }
+    </style>
+    

@@ -1,0 +1,110 @@
+<div class="container">
+<? include "sub_user/user_mypage_menu.page" ?>
+    <div class="container">
+        <div>
+            <!---->
+            <div>
+                <div class="tabs is-toggle is-fullwidth">
+                    <ul>
+                        <li class="is-active"><a><span>전체</span> <span class="icon is-small">2</span></a></li>
+                        <li class=""><a><span>접수</span></a></li>
+                        <li class=""><a><span>진행</span></a></li>
+                        <li class=""><a><span>감수요청</span></a></li>
+                        <li class=""><a><span>수정요청</span></a></li>
+                        <li class=""><a><span>문의</span></a></li>
+                        <li class=""><a><span>완료</span></a></li>
+                        <li class=""><a><span>취소</span></a></li>
+                    </ul>
+                </div>
+                <div class="columns pt-2">
+                    <div class="column is-three-quarters">
+                        <nav class="level">
+                            <div class="level-left">
+                                <div class="level-item pl-5">
+                                    <div class="buttons">
+                                        <button class="button is-small button-line is-success">전체</button> 
+                                        <button class="button is-small button-line">감수</button> 
+                                        <button class="button is-small button-line">번역</button> 
+                                        <button class="button is-small button-line ">행정대행</button> 
+                                        <button class="button is-small button-line ">음성지원</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <hr>
+                <table class="table is-hoverable is-fullwidth is-bordered">
+                    <thead>
+                        <tr class="text-center">
+                            <th scope="col">주문번호</th>
+                            <th scope="col">구분</th>
+                            <th scope="col">상태</th>
+                            <th scope="col">전문가</th>
+                            <th scope="col">업무명</th>
+                            <th scope="col">포인트</th>
+                            <th scope="col">완료 요청일시</th>
+                            <th scope="col">요청 일시</th>
+                            <th scope="col">D-day</th>
+                            <th scope="col">완료 예정일</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="text-center va-middle">
+                            <td>33</td>
+                            <td>음성지원 </td>
+                            <td>
+                                <div class="btn-group">
+                                    <button type="button" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false"
+                                        class="button   is-fullwidth is-small is-warning">
+                                        결제대기
+                                    </button>
+                                </div>
+                            </td>
+                            <td>hutechc</td>
+                            <td><a href="">근로계약서 작성 </a></td>
+                            <td><i aria-hidden="true"></i> 5,000</td>
+                            <td></td>
+                            <td>2021-05-11</td>
+                            <td>D</td>
+                            <td>2021-05-21</td>
+                        </tr>
+                        <tr class="text-center va-middle">
+                            <td>32</td>
+                            <td>번역 </td>
+                            <td class="smalltxt ">
+                                <div class="btn-group">
+                                    <button type="button" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false"
+                                        class="button   is-fullwidth is-small is-warning">
+                                        결제대기
+                                    </button>
+                                </div>
+                            </td>
+                            <td>minjikim0915@gmail.com</td>
+                            <td><a href="">일반 번역 </a></td>
+                            <td><i aria-hidden="true"></i> 45,000
+                            </td>
+                            <td></td>
+                            <td >2021-05-10</td>
+                            <td>D</td>
+                            <td>2021-05-21</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center">
+                        <li>
+                            <!--이전-->
+                        </li>
+                        <li><a href="#" class="page-link">1 / 1 </a></li>
+                        <li>
+                            <!--다음-->
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>

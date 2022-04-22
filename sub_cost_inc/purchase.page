@@ -69,9 +69,9 @@
 <input type="hidden" name="mchtName" value="휴텍씨" />	<!-- 상점한글명 -->
 <input type="hidden" name="mchtEName" value="hutechc" />	<!-- 상점영문명 -->
 <input type="hidden" name="pmtPrdtNm" v-model="otitle"/>	<!-- 상품명 -->
-<input type="hidden" name="notiUrl" value="http://www.metatrans.ai/processing/pg/receiveNoti.php" />	<!-- 결과처리 URL -->
-<input type="hidden" name="nextUrl" value="http://www.metatrans.ai/processing/pg/pay_receiveResult.php" />	<!-- 결과화면 URL -->
-<input type="hidden" name="cancUrl" value="http://www.metatrans.ai/processing/pg/pay_receiveResult.php" />	<!-- 결제취소 URL -->
+<input type="hidden" name="notiUrl" value="https://www.metatrans.ai/processing/pg/receiveNoti.php" />	<!-- 결과처리 URL -->
+<input type="hidden" name="nextUrl" value="https://www.metatrans.ai/processing/pg/pay_receiveResult.php" />	<!-- 결과화면 URL -->
+<input type="hidden" name="cancUrl" value="https://www.metatrans.ai/processing/pg/pay_receiveResult.php" />	<!-- 결제취소 URL -->
 <input type="hidden" name="plainMchtCustNm"  value="<?=$_SESSION['usernm']?>" />			 <!-- 고객명 -->
 <input type="hidden" name="custAcntSumry" value="휴텍씨" />			 <!-- 통장인자내용 : 계좌이체, 가상계좌 -->
 <input type="hidden" name="expireDt"/>			<!-- 입금만료일시(필수) : 가상계좌 -->
